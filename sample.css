@@ -101,8 +101,6 @@ body {
 /* PARTICLES CSS
 ------------------------- */
 /* ---- reset ---- */  canvas{ display: block; vertical-align: bottom; } 
- .home
- {position: relative; background-image: url("home4.png"); background-repeat: no-repeat; background-size: 100%; background-position:center; }
   
     .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } 
   #stats{
