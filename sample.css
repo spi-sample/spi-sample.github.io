@@ -1,0 +1,302 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.bg-dark{
+  background-color: rgba(0,0,0,0.4) !important;
+}
+.nav-link{
+ color: #D5D7D6 !important;
+
+}
+
+
+.city{
+  margin-right: 6%;
+}
+
+
+/* TRAPEZOID
+---------------------------------------------------*/
+.register {
+    width: 0;
+  position:absolute;
+  bottom: 37%;
+  left: 0;
+  cursor: pointer;
+}
+
+
+
+/*----------------------registerbox--------*/
+
+.sidenav {
+    height: 85%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 13%; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.cities{
+  opacity: 0.8;
+}
+
+.cities:hover{
+  opacity: 1;
+}
+
+/* PARTICLES CSS
+------------------------- */
+/* ---- reset ---- */  canvas{ display: block; vertical-align: bottom; } 
+
+  
+    .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } 
+  #stats{
+    display: none;
+  }
+  .count-particles{ border-radius: 0 0 3px 3px; }
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/*----------------------MOBILE VERSION
+--------------------*/
+
+.home-mobile{
+  background-image: url("home-mob.png");
+  position: relative;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.register-mobile {
+    width: 0;
+  position:absolute;
+  bottom: 37%;
+  left: 0;
+  cursor: pointer;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+ 
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .spi{
+    display: none;
+  }
+
+  .register-mobile{
+    top: 15%;
+  }
+
+  .home{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+  }
+.content_to_hide{
+  display: none;
+}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width:768px) and (min-width:600px) {
+   .home{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+  }
+
+  .spi{
+    display: none;
+  }
+  .content_to_hide{
+  display: none;
+}
+
+} 
+
+@media (max-width:859px) and (min-width:768px) {
+
+.home-mobile{
+    display: none;
+   }
+   .home{
+    display: block;
+   }
+
+.navbar-nav{
+  font-size: 80%;
+  margin-left: 3% !important;
+}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width:992px) and (min-width:850px) {
+  .home-mobile{
+    display: none;
+   }
+   .home{
+    display: block;
+   }
+.navbar-nav{
+  font-size: 90%;
+  margin-left: 8% !important;
+}
+  
+
+} 
+
+@media (max-width:1200px) and (min-width:993px){
+
+  .home-mobile{
+    display: none;
+   }
+   .home{
+    display: block;
+   }
+
+.navbar-nav{
+  font-size: 80%;
+}
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .home-mobile{
+    display: none;
+   }
+   .home{
+    display: block;
+   }
+  
+}
+}
+
+/*---------------------footer---------------*/
+        footer{
+          margin-top: 10%;
+        }
+       .footer li {
+            list-style: none;
+            color: white;
+          }
+      
+         .footer h3 {
+            font-size: 20px;
+            }
+           .footer i {
+              margin-right: 9px;
+            }
+            @media (max-width: 480px) {
+             .footer.row {
+                text-align: center;
+              }
+             #comment {
+                margin-left: 10%;
+                
+              }
+             #contact {
+                border-bottom: 2px solid green;
+              }
+              #support {
+                padding-top: 20px;
+                border-bottom: 2px solid green;
+                padding-bottom: 20px;
+              }
+            }
+
+
+
