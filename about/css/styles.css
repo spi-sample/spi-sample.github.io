@@ -1,0 +1,69 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+	color: #76FF03;
+	font-size: 40px;
+}
+
+.tagline{
+	padding-top: 20%;
+}
+
+.main {
+    background-image: url("../img/about_bg.jpg");
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission{
+	padding-left: 30px;
+	color: black;
+}
+
+.bg{
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#testimonial{
+	background-image: url("../img/Testimonial_bg.jpg");
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.mySlides{
+	display: none;
+}
+
+#slideshow-container{
+	padding: 120px;
+}
+
+.column-aligner{
+	padding: 20px;
+}
