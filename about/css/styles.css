@@ -61,9 +61,13 @@ h1{
 }
 
 #slideshow-container{
-	padding: 120px;
+	padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .column-aligner{
+    text-align: left;
 	padding: 20px;
 }
