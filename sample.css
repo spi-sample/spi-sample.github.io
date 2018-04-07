@@ -9,17 +9,17 @@ body {
 }
 
 .bg-dark{
-  background-color: rgba(0,0,0,0.4) !important;
+  background-color: rgba(0,0,0,0.6) !important;
 }
 .nav-link{
  color: #D5D7D6 !important;
+ padding-right: 40px !important; 
 
 }
 
 
-.city{
-  margin-right: 6%;
-}
+
+
 
 
 /* TRAPEZOID
@@ -92,7 +92,7 @@ body {
 }
 
 .cities{
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .cities:hover{
@@ -263,8 +263,12 @@ body {
    }
 
 .navbar-nav{
-  font-size: 80%;
-  margin-left: 3% !important;
+  font-size: 82%;
+  margin-left: 1% !important;
+}
+
+.nav-link{
+  padding-right: 5px !important;
 }
 }
 
@@ -281,7 +285,9 @@ body {
   font-size: 90%;
   margin-left: 8% !important;
 }
-  
+  .nav-link{
+  padding-right: 12px !important;
+}
 
 } 
 
@@ -295,7 +301,10 @@ body {
    }
 
 .navbar-nav{
-  font-size: 80%;
+  font-size: 90%;
+}
+.nav-link{
+  padding-right: 20px !important;
 }
 }
 
