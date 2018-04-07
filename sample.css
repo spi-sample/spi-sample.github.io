@@ -130,7 +130,7 @@ body {
 --------------------*/
 
 .home-mobile{
-  background-image: url("home_img/home-mob.png");
+  background-image: url("home_img/home-mob.jpg");
   position: relative;
   height: 650px;
   background-repeat: no-repeat;
@@ -211,7 +211,13 @@ body {
 }
 
 
+@media only screen and (max-width: 480px) {
+  .mob_text{
+  font-size: 90% !important;
+  bottom: 20% !important;
+}
 
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .spi{
@@ -233,6 +239,8 @@ body {
   display: none;
 }
 
+
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -252,9 +260,11 @@ body {
   display: none;
 }
 
+
+
 } 
 
-@media (max-width:859px) and (min-width:768px) {
+@media (max-width:600px) and (min-width:768px) {
 
 .home-mobile{
     display: none;
@@ -283,11 +293,11 @@ body {
     display: block;
    }
 .navbar-nav{
-  font-size: 90%;
+  font-size: 85%;
   margin-left: 8% !important;
 }
   .nav-link{
-  padding-right: 12px !important;
+  padding-right: 10px !important;
 }
 
 } 
@@ -307,6 +317,8 @@ body {
 .nav-link{
   padding-right: 20px !important;
 }
+
+
 }
 
 
