@@ -8,6 +8,7 @@
     <link rel="icon" href="../../../../favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>Calender</title>
 
@@ -232,6 +233,17 @@
     function closeSidebar() {
         document.getElementById("mySidebar").style.width = "0";
     }
+  
+  $(window).bind("resize", function () {
+    console.log($(this).width())
+    if ($(this).width() <= 768) {
+        $('.text-right').removeClass('text-right')
+    } else {
+        $('.text-right').addClass('text-right')
+    }
+}).trigger('resize');
+
+
 
     </script>
    
