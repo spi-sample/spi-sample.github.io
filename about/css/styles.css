@@ -113,7 +113,23 @@ h1{
     .tagline {
         text-align: center;
     }
+
 }
 
+@media(max-width: 560px) {
+    #story_content{
+        width: auto;
+        padding-left: 20px;
+        padding-top: 60px;
+    }
+}
+
+@media(min-width: 561px) {
+    #story_content{
+        width: 500px;
+        padding-left: 100px;
+        padding-top: 80px;
+    }
+}
 
 
