@@ -9,17 +9,17 @@ body {
 }
 
 .bg-dark{
-  background-color: rgba(0,0,0,0.4) !important;
+  background-color: rgba(0,0,0,0.6) !important;
 }
 .nav-link{
  color: #D5D7D6 !important;
+ padding-right: 40px !important; 
 
 }
 
 
-.city{
-  margin-right: 6%;
-}
+
+
 
 
 /* TRAPEZOID
@@ -37,16 +37,17 @@ body {
 /*----------------------registerbox--------*/
 
 .sidenav {
-    height: 85%; /* 100% Full-height */
+    height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 13%; /* Stay at the top */
+    z-index: 9999999 !important; /* Stay on top */
+    top: 0; /* Stay at the top */
     left: 0;
     background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: 1;
 }
 
 /* The navigation menu links */
@@ -91,7 +92,8 @@ body {
 }
 
 .cities{
-  opacity: 0.8;
+  opacity: 0.9;
+  padding-right: 6%;
 }
 
 .cities:hover{
@@ -128,7 +130,7 @@ body {
 --------------------*/
 
 .home-mobile{
-  background-image: url("home_img/home-mob.png");
+  background-image: url("home_img/home-mob.jpg");
   position: relative;
   height: 650px;
   background-repeat: no-repeat;
@@ -143,6 +145,52 @@ body {
   left: 0;
   cursor: pointer;
 }
+
+
+/*-------------SIDEBAR----------------*/
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: 1;
+}
+
+/* The navigation menu links */
+.sidebar a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    margin-right: 25px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
 
 
 
@@ -163,7 +211,13 @@ body {
 }
 
 
+@media only screen and (max-width: 480px) {
+  .mob_text{
+  font-size: 90% !important;
+  bottom: 20% !important;
+}
 
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .spi{
@@ -185,6 +239,8 @@ body {
   display: none;
 }
 
+
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -204,9 +260,11 @@ body {
   display: none;
 }
 
+
+
 } 
 
-@media (max-width:859px) and (min-width:768px) {
+@media (max-width:850px) and (min-width:768px) {
 
 .home-mobile{
     display: none;
@@ -216,8 +274,12 @@ body {
    }
 
 .navbar-nav{
-  font-size: 80%;
-  margin-left: 3% !important;
+  font-size: 82%;
+  margin-left: 1% !important;
+}
+
+.nav-link{
+  padding-right: 5px !important;
 }
 }
 
@@ -231,10 +293,12 @@ body {
     display: block;
    }
 .navbar-nav{
-  font-size: 90%;
+  font-size: 85%;
   margin-left: 8% !important;
 }
-  
+  .nav-link{
+  padding-right: 10px !important;
+}
 
 } 
 
@@ -248,8 +312,13 @@ body {
    }
 
 .navbar-nav{
-  font-size: 80%;
+  font-size: 90%;
 }
+.nav-link{
+  padding-right: 20px !important;
+}
+
+
 }
 
 
