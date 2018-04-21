@@ -264,7 +264,7 @@ body {
 
 } 
 
-@media (max-width:600px) and (min-width:768px) {
+@media (max-width:850px) and (min-width:768px) {
 
 .home-mobile{
     display: none;
@@ -274,13 +274,18 @@ body {
    }
 
 .navbar-nav{
-  font-size: 82%;
+  font-size: 100%;
   margin-left: 1% !important;
 }
 
-.nav-link{
-  padding-right: 5px !important;
+.register-here{
+  font-size: 100%;
 }
+
+
+.nav-link{
+  padding-right: 0px !important;
+  margin-right: 20px !important;
 }
 
 
@@ -296,8 +301,13 @@ body {
   font-size: 85%;
   margin-left: 8% !important;
 }
+
+.register-here{
+  font-size: 85%;
+}
+
   .nav-link{
-  padding-right: 10px !important;
+  padding-right: 5px !important;
 }
 
 } 
@@ -312,11 +322,19 @@ body {
    }
 
 .navbar-nav{
-  font-size: 90%;
+  font-size: 100%;
+  margin-left: 35% !important;
 }
+
+.register-here{
+  font-size: 100%;
+}
+
 .nav-link{
-  padding-right: 20px !important;
+  padding-right: 5px !important;
+  margin-right: 20px !important;
 }
+
 
 
 }
