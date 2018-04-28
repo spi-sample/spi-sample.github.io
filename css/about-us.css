@@ -115,7 +115,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 8rem;
+  bottom: 5rem;
   z-index: 10;
 }
 
@@ -167,10 +167,7 @@ SCREEN ADJUSTMENT-----------*/
     display: block;
   }
 
-  .carousel-caption {
-  bottom: 5rem !important;
- 
-}
+
 
 .content_to_hide{
   display: none;
@@ -192,10 +189,7 @@ SCREEN ADJUSTMENT-----------*/
   display: none;
 }
 
-.carousel-caption {
-  bottom: 5rem !important;
-  
-}
+
 
 .calendar-home{
   display: none;
