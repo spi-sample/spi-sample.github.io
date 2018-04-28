@@ -168,7 +168,7 @@ SCREEN ADJUSTMENT-----------*/
   }
 
   .carousel-caption {
-  bottom: 5rem;
+  bottom: 5rem !important;
  
 }
 
@@ -193,7 +193,7 @@ SCREEN ADJUSTMENT-----------*/
 }
 
 .carousel-caption {
-  bottom: 5rem;
+  bottom: 5rem !important;
   
 }
 
