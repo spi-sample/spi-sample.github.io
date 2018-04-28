@@ -357,8 +357,8 @@
     <!-- TESTIMONIAL STARTS -->
     <div style="background-color: white;">
       <div class="container">
-        <div id="test_heading" style="text-align: right; padding-top: 80px;">
-          <h1 style="color: black;">TESTIMONIALS</h1>
+        <div id="test_heading" style="padding-top: 80px;">
+          <h1>TESTIMONIALS</h1>
         </div>
         <br/>
         <div class="container" style="width: 80%;">
@@ -402,6 +402,15 @@
     function closeSidebar() {
         document.getElementById("mySidebar").style.width = "0";
     }
+
+    $(window).bind("resize", function () {
+    console.log($(this).width())
+    if ($(this).width() <= 768) {
+        $('.text-right').removeClass('text-right')
+    } else {
+        $('.text-right').addClass('text-right')
+    }
+}).trigger('resize');
 
     </script>
 </body>
