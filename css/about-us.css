@@ -166,6 +166,12 @@ SCREEN ADJUSTMENT-----------*/
   .calendar-mobile{
     display: block;
   }
+
+  .carousel-caption {
+  bottom: 5rem;
+ 
+}
+
 .content_to_hide{
   display: none;
 }
@@ -184,6 +190,11 @@ SCREEN ADJUSTMENT-----------*/
   }
   .content_to_hide{
   display: none;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+  
 }
 
 .calendar-home{
