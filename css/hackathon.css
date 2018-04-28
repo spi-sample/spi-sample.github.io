@@ -166,3 +166,31 @@ display: block;
     display: block;
   }
 }
+
+.pitchfests_bg{
+  background-color: #10a399;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cities img{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*.container{
+  border: 1px solid red;
+}
+
+.col-lg-4{
+  border: 2px solid green;
+}
+
+.col-sm-6{
+  border: 2px solid green;
+}
+
+img{
+  border: 3px solid red;
+}*/
+
