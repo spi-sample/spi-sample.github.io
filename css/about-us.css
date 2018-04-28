@@ -173,9 +173,13 @@ SCREEN ADJUSTMENT-----------*/
   display: none;
 }
 
-.navdown{
-    width: 33.3% !important;
-  }
+ .btn {
+  width: 80% !important;
+}
+
+.text-center{
+  font-size: 350% !important
+}
 
 } 
 
@@ -199,12 +203,10 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+
 .carousel-caption{
   bottom: 4rem !important;
 }
-.navdown{
-    width: 30% !important;
-  }
 
 } 
 
