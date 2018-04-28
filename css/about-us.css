@@ -8,8 +8,7 @@ body {
 
 
 .navdown{ 
-  text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 3px;
   
  }
@@ -30,12 +29,13 @@ body {
 
 .nav-link-down{
   color: #6D6D6D !important; 
-  font-size: 105%;
   font-family: 'Oswald', sans-serif;
   cursor: pointer;
   text-decoration: none !important;
 
 }
+
+
 
 
 /*-------------SIDEBAR----------------*/
@@ -81,7 +81,7 @@ body {
 
 
 .active-link{
-  background-color: #3FA3A3 !important;
+  background-color: #10A399 !important;
  
 }
 
@@ -96,7 +96,7 @@ body {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #3FA3A3;
+  border-top: 20px solid #10A399;
   margin-left: 46.7% !important;
 }
 
@@ -105,7 +105,7 @@ body {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 15px solid #3FA3A3;
+  border-top: 15px solid #10A399;
   margin-left: 22% !important;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 5rem;
   z-index: 10;
 }
 
@@ -166,16 +166,22 @@ SCREEN ADJUSTMENT-----------*/
   .calendar-mobile{
     display: block;
   }
-
+.carousel-caption{
+  bottom: 1rem !important;
+}
 
 
 .content_to_hide{
   display: none;
 }
 
-.navdown{
-    width: 33.3% !important;
-  }
+ .btn {
+  width: 80% !important;
+}
+
+.text-center{
+  font-size: 350% !important
+}
 
 } 
 
@@ -199,9 +205,10 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
-.navdown{
-    width: 30% !important;
-  }
+
+.carousel-caption{
+  bottom: 4rem !important;
+}
 
 } 
 
@@ -210,8 +217,8 @@ SCREEN ADJUSTMENT-----------*/
 
 
 .navbar-nav{
-  font-size: 100%;
-  margin-left: 1% !important;
+  font-size: 91%;
+  margin-left: 0% !important;
 }
 
 .register-here{
@@ -239,8 +246,8 @@ SCREEN ADJUSTMENT-----------*/
 @media (max-width:992px) and (min-width:850px) {
   
 .navbar-nav{
-  font-size: 85%;
-  margin-left: 8% !important;
+  font-size: 100%;
+  margin-left: 2% !important;
 }
 
 .register-here{
@@ -248,7 +255,8 @@ SCREEN ADJUSTMENT-----------*/
 }
 
   .nav-link{
-  padding-right: 5px !important;
+  padding-right: 0px !important;
+  margin-right: 30px !important;
 }
 
 .calendar-mobile{
@@ -260,7 +268,7 @@ SCREEN ADJUSTMENT-----------*/
 
 } 
 
-@media (max-width:1200px) and (min-width:993px){
+@media (max-width:1300px) and (min-width:993px){
 
 
 .calendar-mobile{
@@ -272,7 +280,7 @@ SCREEN ADJUSTMENT-----------*/
 
 .navbar-nav{
   font-size: 100%;
-  margin-left: 35% !important;
+  margin-left: 30% !important;
 }
 
 .register-here{
@@ -288,7 +296,7 @@ SCREEN ADJUSTMENT-----------*/
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
    .calendar-mobile{
     display: none;
    }
@@ -435,7 +443,7 @@ h1{
 }
 
 .active-link{
-  background-color: #3FA3A3 !important;
+  background-color: #10A399 !important;
  
 }
 
@@ -444,7 +452,7 @@ h1{
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #3FA3A3;
+  border-top: 20px solid #10A399;
   margin-left: 51.5%;
   padding: 0 !important;
 }
