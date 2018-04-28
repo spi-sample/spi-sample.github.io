@@ -8,8 +8,7 @@ body {
 
 
 .navdown{ 
-  text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 3px;
   
  }
@@ -30,7 +29,6 @@ body {
 
 .nav-link-down{
   color: #6D6D6D !important; 
-  font-size: 105%;
   font-family: 'Oswald', sans-serif;
   cursor: pointer;
   text-decoration: none !important;
@@ -215,8 +213,8 @@ SCREEN ADJUSTMENT-----------*/
 
 
 .navbar-nav{
-  font-size: 100%;
-  margin-left: 1% !important;
+  font-size: 91%;
+  margin-left: 0% !important;
 }
 
 .register-here{
@@ -244,8 +242,8 @@ SCREEN ADJUSTMENT-----------*/
 @media (max-width:992px) and (min-width:850px) {
   
 .navbar-nav{
-  font-size: 85%;
-  margin-left: 8% !important;
+  font-size: 100%;
+  margin-left: 2% !important;
 }
 
 .register-here{
@@ -253,7 +251,8 @@ SCREEN ADJUSTMENT-----------*/
 }
 
   .nav-link{
-  padding-right: 5px !important;
+  padding-right: 0px !important;
+  margin-right: 30px !important;
 }
 
 .calendar-mobile{
@@ -265,7 +264,7 @@ SCREEN ADJUSTMENT-----------*/
 
 } 
 
-@media (max-width:1200px) and (min-width:993px){
+@media (max-width:1300px) and (min-width:993px){
 
 
 .calendar-mobile{
@@ -277,7 +276,7 @@ SCREEN ADJUSTMENT-----------*/
 
 .navbar-nav{
   font-size: 100%;
-  margin-left: 35% !important;
+  margin-left: 30% !important;
 }
 
 .register-here{
@@ -293,7 +292,7 @@ SCREEN ADJUSTMENT-----------*/
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
    .calendar-mobile{
     display: none;
    }
