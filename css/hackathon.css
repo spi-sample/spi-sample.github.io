@@ -178,6 +178,19 @@ display: block;
   margin-right: 2%;
 }
 
+#pitchfests_heading{
+  text-align: center;
+}
+
+#time_img{
+  width: 310px;
+}
+
+#final_hackathon{
+  font-size: 300%;
+  font-family: 'Quicksand:400', sans-serif;
+}
+
 /*.container{
   border: 1px solid red;
 }
@@ -194,3 +207,18 @@ img{
   border: 3px solid red;
 }*/
 
+@media(min-width: 720px){
+  #time_img{
+    width: 500px;
+  }
+
+  #final_hackathon{
+    font-size: 400%;
+  }
+}
+
+@media(min-width: 992px){
+  #pitchfests_heading{
+    text-align: right;
+  }
+}

@@ -439,6 +439,62 @@ h1{
   padding: 0 !important;
 }
 
+.story_heading{
+  position: absolute;
+  right: 0; 
+  bottom: 0; 
+  z-index: 100; 
+  color: white;  
+  padding-right: 50px; 
+  font-size: 70px; 
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* For value 1 */
+#optimism, #collab, #human, #tech, #community, #autonomy, #trust, #simple{
+  display: none;
+}
+
+#value1:hover #optimism{
+  display: block;
+}
+
+/* For value 2 */
+#value2:hover #collab{
+  display: block;
+}
+
+/* For value 3 */
+#value3:hover #human{
+  display: block;
+}
+
+/* For value 4 */
+#value4:hover #tech{
+  display: block;
+}
+
+/* For value 5 */
+#value5:hover #community{
+  display: block;
+}
+
+/* For value 6 */
+#value6:hover #autonomy{
+  display: block;
+}
+
+/* For value 7 */
+#value7:hover #trust{
+  display: block;
+}
+
+/* For value 8 */
+#value8:hover #simple{
+  display: block;
+}
+
 @media(min-width: 320px) {
   #test_heading h1{
     color: black;
@@ -478,3 +534,21 @@ h1{
       text-align: right;
     }
 }
+
+@media(min-width: 765px){
+  .story_heading{
+      padding-right: 150px;
+  }
+}
+
+/*.container{
+  border: 1px solid red;
+}
+
+.col-lg-6{
+  border: 2px solid green;
+}
+
+.col-sm-6{
+  border: 2px solid green;
+}*/
