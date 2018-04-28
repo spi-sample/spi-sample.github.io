@@ -91,24 +91,6 @@ body {
 
 
 
-.triangle-down {
-  width:0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #10A399;
-  margin-left: 46.7% !important;
-}
-
-.triangle-down-mob {
-  width:0;
-  height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #10A399;
-  margin-left: 22% !important;
-}
-
 .carousel {
   background-color: rgb(255, 255, 255) !important;
 

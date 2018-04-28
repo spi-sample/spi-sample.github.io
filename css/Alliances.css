@@ -3,19 +3,25 @@ body {
   padding-bottom: 3rem;
 }
 
-
+.navbar-dark{
+  background-color: rgba(0,0,0,0.3) !important;
+  position: absolute;
+  z-index: 100000;
+  width: 100%;
+}
 
 
 
 .navdown{ 
-  text-align: center;
-  padding-top: 5px;
+ 
+  padding-top: 10px;
   padding-bottom: 3px;
+  padding-right: 0;
   
  }
 
-.bg-dark{
-  background-color: rgba(0,0,0,0.4) !important;
+.active-link{
+  background-color: #10A399 !important;
 }
 
 
@@ -75,29 +81,7 @@ body {
 }
 
 
-.active{
-  background-color: #4CC5C5 !important;
- 
-}
 
-
-.triangle-down {
-  width:0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #4CC5C5;
-  margin-left:49.5%;
-}
-
-.triangle-down-mob {
-  width:0;
-  height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #4CC5C5;
-  margin-left: 42%;
-}
 
 .carousel {
   background-color: rgb(255, 255, 255) !important;
