@@ -36,6 +36,8 @@ body {
 }
 
 
+
+
 /*-------------SIDEBAR----------------*/
 
 .sidebar {
@@ -79,7 +81,7 @@ body {
 
 
 .active-link{
-  background-color: #3FA3A3 !important;
+  background-color: #10A399 !important;
  
 }
 
@@ -94,7 +96,7 @@ body {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #3FA3A3;
+  border-top: 20px solid #10A399;
   margin-left: 46.7% !important;
 }
 
@@ -103,7 +105,7 @@ body {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 15px solid #3FA3A3;
+  border-top: 15px solid #10A399;
   margin-left: 22% !important;
 }
 
@@ -441,7 +443,7 @@ h1{
 }
 
 .active-link{
-  background-color: #3FA3A3 !important;
+  background-color: #10A399 !important;
  
 }
 
@@ -450,7 +452,7 @@ h1{
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #3FA3A3;
+  border-top: 20px solid #10A399;
   margin-left: 51.5%;
   padding: 0 !important;
 }
