@@ -4,7 +4,13 @@ body {
 }
 
 
-
+.calendar-mobile{
+  background-image: url("../img/about_img/About-20.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+}
 
 
 .navdown{ 
@@ -97,7 +103,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 5rem;
+  bottom: 1rem;
   z-index: 10;
 }
 
