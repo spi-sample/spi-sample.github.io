@@ -167,16 +167,8 @@
     function closeSidebar() {
         document.getElementById("mySidebar").style.width = "0";
     }
-  
-  $(window).bind("resize", function () {
-    console.log($(this).width())
-    if ($(this).width() <= 768) {
-        $('.text-right').removeClass('text-right')
-    } else {
-        $('.text-right').addClass('text-right')
-    }
-}).trigger('resize');
-
+ 
+ 
 
 
     </script>

@@ -4,7 +4,6 @@
 
 body {
 
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -12,7 +11,7 @@ body {
   background-color: rgba(0,0,0,0.6) !important;
 }
 .nav-link{
- color: #D5D7D6 !important;
+
  padding-right: 40px !important; 
 
 }
@@ -21,16 +20,6 @@ body {
 
 
 
-
-/* TRAPEZOID
----------------------------------------------------*/
-.register {
-    width: 0;
-  position:absolute;
-  bottom: 37%;
-  left: 0;
-  cursor: pointer;
-}
 
 
 
@@ -91,14 +80,6 @@ body {
   margin-left: .75rem;
 }
 
-.cities{
-  opacity: 0.9;
-  padding-right: 6%;
-}
-
-.cities:hover{
-  opacity: 1;
-}
 
 /* PARTICLES CSS
 ------------------------- */
@@ -138,13 +119,7 @@ body {
   background-position: center;
 }
 
-.register-mobile {
-    width: 0;
-  position:absolute;
-  bottom: 37%;
-  left: 0;
-  cursor: pointer;
-}
+
 
 
 /*-------------SIDEBAR----------------*/
@@ -187,8 +162,28 @@ body {
     font-size: 36px;
     margin-right: 25px;
 }
+/*--------------FOOTER--------------*/
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+.foot{
+  float: left;
+  margin-right: 3%;
+  color: #595959 !important;
+}
+
+        footer{
+          margin-top: 10%;
+        }
+       .footer li {
+            list-style: none;
+            color: white;
+          }
+      
+       
+
+
+
+
 
 
 
@@ -224,9 +219,7 @@ body {
     display: none;
   }
 
-  .register-mobile{
-    top: 15%;
-  }
+
 
   .home{
     display: none;
@@ -239,6 +232,13 @@ body {
   display: none;
 }
 
+.quotes{
+     bottom: -27% !important;
+  }
+
+   .foot{
+    display: none;
+  }
 
 
 } 
@@ -260,7 +260,13 @@ body {
   display: none;
 }
 
+.quotes{
+     bottom: -25% !important;
+  }
 
+  .foot{
+    display: none;
+  }
 
 } 
 
@@ -274,18 +280,27 @@ body {
    }
 
 .navbar-nav{
-  font-size: 82%;
-  margin-left: 1% !important;
+  font-size: 91%;
+  margin-left: 0% !important;
 }
 
 .nav-link{
-  padding-right: 5px !important;
+  padding-right: 0px !important;
+  margin-right: 20px !important;
+}
+
+.quotes{
+     bottom: -24% !important;
+  }
+
+    .foot{
+  margin-right: 2% !important;
 }
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (max-width:992px) and (min-width:850px) {
+@media (max-width:993px) and (min-width:850px) {
   .home-mobile{
     display: none;
    }
@@ -293,16 +308,25 @@ body {
     display: block;
    }
 .navbar-nav{
-  font-size: 85%;
-  margin-left: 8% !important;
+  font-size: 100%;
+  margin-left: 2% !important;
 }
   .nav-link{
-  padding-right: 10px !important;
+  padding-right: 0px !important;
+  margin-right: 30px !important;
+}
+
+.quotes{
+     bottom: -26% !important;
+  }
+
+  .foot{
+  margin-right: 2% !important;
 }
 
 } 
 
-@media (max-width:1200px) and (min-width:993px){
+@media (max-width:1300px) and (min-width:993px){
 
   .home-mobile{
     display: none;
@@ -312,18 +336,25 @@ body {
    }
 
 .navbar-nav{
-  font-size: 90%;
+  font-size: 100%;
+  margin-left: 30% !important;
 }
 .nav-link{
-  padding-right: 20px !important;
+  padding-right: 5px !important;
+  margin-right: 20px !important;
 }
 
-
+.quotes{
+     bottom: -24% !important;
+  }
+.foot{
+  margin-right: 4% !important;
+}
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
    .home-mobile{
     display: none;
    }
@@ -333,39 +364,4 @@ body {
   
 }
 }
-
-/*---------------------footer---------------*/
-        footer{
-          margin-top: 10%;
-        }
-       .footer li {
-            list-style: none;
-            color: white;
-          }
-      
-         .footer h3 {
-            font-size: 20px;
-            }
-           .footer i {
-              margin-right: 9px;
-            }
-            @media (max-width: 480px) {
-             .footer.row {
-                text-align: center;
-              }
-             #comment {
-                margin-left: 10%;
-                
-              }
-             #contact {
-                border-bottom: 2px solid green;
-              }
-              #support {
-                padding-top: 20px;
-                border-bottom: 2px solid green;
-                padding-bottom: 20px;
-              }
-            }
-
-
 
