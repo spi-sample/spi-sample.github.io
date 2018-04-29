@@ -220,7 +220,7 @@ body {
 }
 
 .quotes{
-  bottom: -23% !important;
+  bottom: -20% !important;
 }
 
 
@@ -248,7 +248,7 @@ width: 100px !important;
 
 @media (max-width: 600px) and (min-width: 480px) {
   .quotes{
-    bottom: -27% !important;
+    bottom: -24% !important;
   }
 }
 /* Extra small devices (phones, 600px and down) */
@@ -294,7 +294,7 @@ width: 100px !important;
 }
 
 .quotes{
-     bottom: -25% !important;
+     bottom: -23% !important;
   }
 
   .foot{
@@ -350,7 +350,7 @@ width: 100px !important;
 }
 
 .quotes{
-     bottom: -26% !important;
+     bottom: -23% !important;
   }
 
   .foot{
@@ -378,7 +378,7 @@ width: 100px !important;
 }
 
 .quotes{
-     bottom: -24% !important;
+     bottom: -21% !important;
   }
 .foot{
   margin-right: 4% !important;
