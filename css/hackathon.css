@@ -139,17 +139,17 @@ display: block;
   }
 }
 
-@media screen and (min-width: 680px){
+@media screen and (min-width: 980px){
   .desktop{
     display: block;
   }
 
-  .mob-view{
+  .mobile{
     display: none;
   }
 }
 
-@media (max-width: 680px){
+@media (max-width: 980px){
   .heading{
     font-size: 300% !important;
   }
@@ -162,7 +162,7 @@ display: block;
     display: none;
   }
 
-  .mob-view{
+  .mobile{
     display: block;
   }
 }
