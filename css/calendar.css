@@ -4,6 +4,13 @@ body {
 }
 
 
+.calendar-mobile{
+  background-image: url("../img/calendar_img/Calendar-20.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+}
 
 
 
