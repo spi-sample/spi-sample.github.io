@@ -13,10 +13,12 @@
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://www.jsdelivr.com/#!particles.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
   
 
     <!-- Custom styles for this template -->
-    <link href="sample.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
     <style type="text/css">
     
   </style>
@@ -24,35 +26,36 @@
   <body style="background-color: rgba(0,0,0,1);">
 
     <header class="content_to_hide">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><img src="home_img/Hackathon Logo_FINAL-03.png" width="120"></a>
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse" >
-          <ul class="navbar-nav" style="margin-left: 20%;">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav" style="margin-left: 30%;">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about/about.html">ABOUT US</a>
+             <li class="nav-item">
+              <a class="nav-link" href="about-us.html">ABOUT US</a>
+            </li>  
+             <li class="nav-item">
+              <a class="nav-link" href="Hackathon.html">HACKATHON</a>
             </li>
-             <li class="nav-item active">
-              <a class="nav-link" href="#">HACKATHON</a>
+             <li class="nav-item">
+              <a class="nav-link" href="challenge.html">CHALLENGES</a>
             </li>
-             <li class="nav-item active">
-              <a class="nav-link" href="challenge.html">COLLABORATIONS</a>
+             <li class="nav-item">
+              <a class="nav-link" href="blog.html">BLOG</a>
             </li>
-             <li class="nav-item active">
-              <a class="nav-link" href="#">FAQS</a>
-            </li>
-             <li class="nav-item active">
-              <a class="nav-link" href="#">CALENDAR</a>
-            </li>
-          </ul>
-          </div>
+            </ul>
+             </div>
+             <div class="register-here" style="background-color: #3FA3A3; font-size: 100%; margin-right: 3%; padding: 2px 0 2px 0;">
+              <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
+
+            </div>
          <div class="spi">
-          <img src="home_img/SPI Cinemas_logo-02.png" width="120">
+          <img src="img/SPI Cinemas_logo-02.png" width="120">
          </div>
         
       </nav>
@@ -60,7 +63,7 @@
 
     
 
-   <div class="home" style="position: relative; width: 100%; height: 80%; background-image: url(home_img/home4.png); background-repeat: no-repeat; background-size: 100%; background-position:center;">
+   <div class="home" style="position: relative; width: 100%; height: 80%; background-image: url(home_img/home.jpg); background-repeat: no-repeat; background-size: 100%; background-position:center;">
 
          <!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles"></span> </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
         <div id="mySidenav" class="sidenav">
@@ -108,22 +111,28 @@
 
 <!--- MOBILE VIEW -->
   <div class="home-mobile">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><img src="home_img/Hackathon Logo_FINAL-03.png" width="120"></a>
+    <nav class="navbar navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
 
     <div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
-  <a href="#">HOME</a>
-  <a href="about/about.html">ABOUT US</a>
-  <a href="#">HACKATHON</a>
-  <a href="#">COLLABORATIONS</a>
-  <a href="#">FAQS</a>
-  <a href="#">CALENDAR</a>
+ <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+  <a href="index.html">HOME</a>
+  <a href="about-us.html">ABOUT US</a>
+  <a href="hackathon.html">HACKATHON</a>
+  <a href="challenges.html">CHALLENGES</a>
+  <a href="blogs.html">BLOGS</a>
+  <div class="register-here" style="background-color: #3FA3A3; font-size: 100%; padding: 2px 0 2px 0;">
+              <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
+</div>
 </div>
 
 <!-- Use any element to open the sidenav -->
-<span onclick="openSidebar()"><img src="home_img/hamburger.png" width="35"></span>
+<span onclick="openSidebar()"><img src="img/hamburger.png" width="35"></span>
 </nav>
+
+<div class="col-lg-12 mob_text" style="position:absolute; bottom: 10%; text-align: center; opacity: 0.9;  color: white; font-family: 'Oswald', sans-serif; ">
+  <h1 style="font-size: 300%;">seek | solve | sustain</h1>
+</div>
 
 <!-- REGISTER BOX -->
 
@@ -161,12 +170,14 @@
 
 <!-- Use any element to open the sidenav -->
 <span onclick="openSide()" class="register-mobile">
-  <img class="regsiter-image" src="home_img/register.png" height="150">
+  <img class="regsiter-image" src="img/home_img/register.png" height="150">
 </span>
 
   </div>   
 
      <script>
+
+       
     function openNav() {
         document.getElementById("mySidenav").style.width = "350px";
     }
@@ -195,113 +206,45 @@
     </script>
    
     
-    
-      <div class="container-fluid">
-      <div class="innovate row" style="margin-top: 4%;">
-  
-  
-    <div class="col-lg-3">
-  
-    </div>
-    <div class="col-lg-6 info" style="text-align: center; color: white;">
-      <h4 style=" margin-left: 4%;">How can you <span style="color: #8cc63f;">innovate</span> for the society?</h4>
-      <button type="button" class="btn btn-dark"  style="margin-top: 3%;  width:35%; background-color: transparent; border:1px solid #8cc63f;">click for more</button>
-   
-   <h4 style="margin-top: 7%;">Now in 6 cities:</h4>
-
-    </div>
-    <div class="col-lg-3">
-      
-    </div>
-  </div>
-</div>
-        
-
-  
-
-
 
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing" style="border-bottom:10%;">
-
+      <div class="container-fluid marketing" style="padding-bottom:10%; background-color: white; ">
+       <div class="row">
+        <div class="col-lg-12">
+        <h1 style="text-align: center; margin-top: 7%; font-family: 'Oswald', sans-serif; color: black;">Now in 6 cities</h1>
+        </div>
+        </div> 
         <!-- Three columns of text below the carousel -->
-        <div class="row" style=" margin-top: 4%; text-align: center;">
-          <div class="col-lg-12">
-            <span class="cities">
-            <img src="home_img/Mumbai.png" alt="Generic placeholder image" width="140" height="150">
+        <div class="row" style=" margin-top: 4%; text-align: center; margin-bottom: 2%;">
+          <div class="container">
+            <div style="margin-bottom: 5%; margin-top: 3%;">
+            <span class="col-lg-4 cities col-sm-6">
+            <img src="img/home_img/Mumbai.jpg" alt="Generic placeholder image" width="150" height="150">
             </span>
-            <span class="cities">
-            <img src="home_img/Pune.png" alt="Generic placeholder image" width="140" height="150">
+            <span class="cities col-lg-4 col-sm-6">
+            <img src="img/home_img/Pune.jpg" alt="Generic placeholder image" width="150" height="150">
             </span>
-            <span class="cities">
-            <img src="home_img/Delhi.png" alt="Generic placeholder image" width="140" height="150">
-            </span>
-            </div>
-            </div>
-            <div class="row" style="text-align: center;">
-          <div class="col-lg-12">
-            <span class="cities">
-            <img src="home_img/Bangalore.png" alt="Generic placeholder image" width="140" height="150">
-            </span>
-            <span class="cities">
-            <img src="home_img/Hyderabad.png" alt="Generic placeholder image" width="140" height="150">
+            <span class="cities col-lg-4 col-sm-6">
+            <img src="img/home_img/Delhi.jpg" alt="Generic placeholder image" width="150" height="150">
             </span>
         </div>
-    </div>
-    <div class="row" style="text-align: center;">
-          <div class="col-lg-12">
-            <span class="cities">
-            <img src="home_img/Chennai.png" alt="Generic placeholder image" width="140" height="150">
+        <div >
+            <span class="cities col-lg-4 col-sm-6">
+            <img src="img/home_img/Bangalore.jpg" alt="Generic placeholder image" width="150" height="150">
+            </span>
+            <span class="cities col-lg-4 col-sm-6">
+            <img src="img/home_img/Hyderabad.jpg" alt="Generic placeholder image" width="150" height="150">
+            </span>       
+            <span class="cities col-lg-4 col-sm-6">
+            <img src="img/home_img/Chennai.jpg" alt="Generic placeholder image" width="150" height="150">
             </span>
         </div>
         </div>
           <!-- /.col-lg-4 -->
              </div> <!-- /.row -->
-      
-       <!-- FOOTER -->
-
-<!--<footer class="footer" style="background-color: rgba(0, 0, 0, 0.9); ">
-      <div class="container" style="padding-top: 20px;">
-        <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12" style="border-right: 2px solid green; height: 25em;  padding-left: 10px; padding-right: 60px;" id="contact">
-          <h3>CONTACT</h3>
-          <br>
-          <li>22, whites road,</li>
-          <li>mamata complex,</li>
-          <li>chennai</li>
-          <li><br></li>
-          <li>Ph: 987429722</li>
-          <li><br></li>
-          <li><textarea class="form-control" rows="5" cols="6" id="comment"></textarea></li>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12" style="padding-left: 30px;" id="support">
-          <h3>SUPPORT</h3>
-          <br>
-          <li>If you think you can support us with anything do support</li>
-          <br>
-          <li><button type="button" class="btn btn-dark btn-lg" style="border-color: #8cc63f; border-radius: 0; background-color: rgba(0, 0, 0, 0.9); padding-left: 20px;">Support</button></li>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12" style="color: white; border-left: 2px solid green; padding-left: 30px;" id="rest">
-          <br>
-          <li>email: hackathon@spicinemas.in</li>
-          <br><br>
-          <div style="position:absolute; right:0; bottom:0; text-align:right">
-            <span><a href=""><i class="fa fa-facebook-f fa-2x"></i></a></span>
-            <span><a href=""><i class="fa fa-instagram fa-2x"></i></a></span>
-            <span><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></span>
-            <span><a href=""><i class="fa fa-snapchat-ghost fa-2x"></i></a></span>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-
--->
-  
-
     
 
     <!-- Bootstrap core JavaScript
@@ -319,6 +262,6 @@
 </html>
 
 
-<script type="text/javascript" src="sample.js">
+<script type="text/javascript" src="js/home.js">
   
 </script>
