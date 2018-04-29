@@ -144,7 +144,7 @@ display: block;
     display: block;
   }
 
-  .mob-view{
+  .mobile{
     display: none;
   }
 }
@@ -162,7 +162,7 @@ display: block;
     display: none;
   }
 
-  .mob-view{
+  .mobile{
     display: block;
   }
 }
