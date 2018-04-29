@@ -197,6 +197,11 @@ display: block;
   font-family: 'Quicksand:400', sans-serif;
 }
 
+#chessboard_heading{
+  font-size: 250%;
+  font-family: 'Quicksand:400', sans-serif;
+}
+
 /*.container{
   border: 1px solid red;
 }
@@ -220,6 +225,10 @@ img{
 
   #final_hackathon{
     font-size: 400%;
+  }
+  
+  #chessboard_heading{
+    font-size: 350%;
   }
 }
 
