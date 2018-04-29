@@ -167,6 +167,12 @@ display: block;
   }
 }
 
+.col-lg-2 {
+  text-align: center;
+  padding-top: 4.5%;
+  left: 0;
+}
+
 .pitchfests_bg{
   background-color: #10a399;
   padding-top: 50px;
