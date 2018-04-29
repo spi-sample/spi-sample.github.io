@@ -3,6 +3,16 @@ body {
   padding-bottom: 3rem;
 }
 
+
+
+.calendar-mobile{
+  background-image: url("../img/alliances_img/Alliances-20.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+}
+
 .navbar-dark{
   background-color: rgba(0,0,0,0.3) !important;
   position: absolute;
