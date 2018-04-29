@@ -7,8 +7,11 @@ body {
   color: #5a5a5a;
 }
 
-.bg-dark{
-  background-color: rgba(0,0,0,0.6) !important;
+.navbar-dark{
+  background-color: rgba(0,0,0,0.3) !important;
+  position: absolute;
+  z-index: 100000;
+  width: 100%;
 }
 .nav-link{
 
@@ -62,6 +65,8 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
+
+
 
 
 /* MARKETING CONTENT
@@ -207,11 +212,44 @@ body {
 
 
 @media only screen and (max-width: 480px) {
+
+
   .mob_text{
   font-size: 90% !important;
   bottom: 20% !important;
 }
 
+.quotes{
+  bottom: -23% !important;
+}
+
+
+.main-page img{
+  width: 120px !important
+}
+
+.tss img{
+width: 200px !important;
+}
+
+.spi-footer img{
+width: 100px !important;
+}
+
+.main-page h1{
+  font-size: 160% !important;
+}
+
+.main-page h5{
+  font-size: 100% !important;
+}
+
+}
+
+@media (max-width: 600px) and (min-width: 480px) {
+  .quotes{
+    bottom: -27% !important;
+  }
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -232,9 +270,6 @@ body {
   display: none;
 }
 
-.quotes{
-     bottom: -27% !important;
-  }
 
    .foot{
     display: none;
