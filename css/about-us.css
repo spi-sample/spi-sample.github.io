@@ -134,17 +134,22 @@
 }
 
 
-.foot{
-  float: left;
-  margin-right: 5% !important;
-  color: #595959 !important;
+
+.footer ul { 
+  list-style: none outside none; 
+  margin:0; 
+  margin-bottom: 2.5%!important;
+  padding-right: 1px; 
+  text-align: center;
+  overflow: hidden;
+   }
+    
+.footer li a{
+ 
+   margin: 0 1.2%;
+   float: left;
+   color: #595959 !important;
 }
-
-       .footer li {
-            list-style: none;
-            color: white;
-          }
-
 
 /*--------------------------
 SCREEN ADJUSTMENT-----------*/
@@ -165,6 +170,15 @@ SCREEN ADJUSTMENT-----------*/
   bottom: 1rem !important;
 }
 
+.footer li a{
+   float: none;
+  
+
+}
+ .get_in_touch{
+  font-size: 80% !important;
+   width: 35% !important;
+ }
 
 .content_to_hide{
   display: none;
@@ -211,10 +225,16 @@ SCREEN ADJUSTMENT-----------*/
 }
 
 
-  .foot{
-    display: none;
-  }
+   .footer li a{
+      float: none;
+ 
+ 
 
+}
+ .get_in_touch{
+  font-size: 80% !important;
+   width: 30% !important;
+ }
 } 
 
 
@@ -244,10 +264,13 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
-    .foot{
-  margin-right: 2% !important;
-  font-size: 95% !important;
+  .footer li a{
+  margin-right: 1% !important;
+  font-size: 85% !important;
 }
+ .get_in_touch{
+  font-size: 80% !important;
+ }
 
 }
 
@@ -276,14 +299,17 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
-  .foot{
-  margin-right: 2% !important;
-  font-size: 95% !important;
+   .footer li a{
+  margin-right: 1% !important;
+  font-size: 85% !important;
 }
+ .get_in_touch{
+  font-size: 80% !important;
+ }
 
 } 
 
-@media (max-width:1300px) and (min-width:993px){
+@media (max-width:1200px) and (min-width:993px){
 
 
 .calendar-mobile{
@@ -306,14 +332,12 @@ SCREEN ADJUSTMENT-----------*/
   padding-right: 5px !important;
   margin-right: 20px !important;
 }
-.foot{
-  margin-right: 4% !important;
-}
+
 
 
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
    .calendar-mobile{
     display: none;
    }
