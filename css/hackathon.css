@@ -16,7 +16,24 @@ body {
 
 }
 
+.navdown{ 
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 0px;
+ }
 
+.nav-link-down{
+  color: #6D6D6D !important; 
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  text-decoration: none !important;
+
+}
+
+.active-link{
+  background-color: #10A399 !important;
+ 
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -73,7 +90,7 @@ display: block;
     }
 
 .carousel {
-  margin-bottom: 4rem;
+ 
   background-color: rgb(255, 255, 255) !important;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -84,7 +101,7 @@ display: block;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 35rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -92,7 +109,7 @@ display: block;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 35rem;
 }
 
 
@@ -206,13 +223,15 @@ display: block;
 }
 
 #final_hackathon{
-  font-size: 300%;
-  font-family: 'Quicksand:400', sans-serif;
+  font-size: 500% !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 #chessboard_heading{
-  font-size: 250%;
-  font-family: 'Quicksand:400', sans-serif;
+  font-size: 500% !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 /*.container{
