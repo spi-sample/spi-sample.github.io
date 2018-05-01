@@ -6,56 +6,143 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300 400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:200,300,400" rel="stylesheet">
 
     <title>Carousel Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="css/hackathon.css" rel="stylesheet">
   </head>
-  <body style=" font-family: 'Oswald', sans-serif;">
+  <body style=" font-family: 'Quicksand', sans-serif;">
+
+  <header class="content_to_hide">
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="width: 100%;">
+           <ul class="navbar-nav" style="margin-left: 45%;">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="about-us.html">ABOUT</a>
+            </li>  
+             <li class="nav-item">
+              <a class="nav-link active" href="Hackathon.html">HACKATHON</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link " href="calendar.html">CALENDER</a>
+            </li>
+          
+            </ul>
+             </div>
+             <div class="register-here" style="background-color: #3FA3A3; font-size: 100%; margin-right: 3%; padding: 2px 0 2px 0;">
+              <a  style="padding: 10px !important; text-decoration: none; color: white; font-family: 'Quicksand', sans-serif !important;" href="#">REGISTER</a>
+
+            </div>
+          
+         
+         <div class="spi">
+          <img src="img/SPI Cinemas_logo-02.png" width="120">
+         </div>
+        
+      </nav>
+    </header>
+
+<div class="calendar-home">
     <main role="main">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-        <div class="carousel-inner"  style="height: 600px !important;">
-          <div class="carousel-item active">
-            <img class="first-slide" src="img/hackathon_img/bg.jpg" alt="First slide"  style="height: 600px !important;">
-            <div class="carousel-caption text-right" >
-                <h2 style="font-size: 400%; " class="heading">HACKATHON</h2>
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color: transparent !important;">
+            <img class="first-slide" src="img/hackathon_img/bg.jpg" alt="First slide" width="100">
+            <div class="container">
+              <div class="carousel-caption text-right" >
+                <h2 style="font-size: 450%; color:white ; font-family: 'Oswald', sans-serif; font-weight: 600;" class="heading">HACKATHON</h2>
                 <br/>
-                <div >
-                <p style=" font-size: 140%; opacity: 0.6; font-family: 'Quicksand:300', sans-serif; ">
-                 We bring community together to identify,analyze,<br/>
-               validate and solve 'Global' problem by encouraging</br>
-             social entrepreneurship.</p>
-</div>
+                <p style=" font-size: 200%; opacity: 0.8; font-family: 'Quicksand', sans-serif;">
+                We bring community together to identify,analyze,<br>validate and solve 'Global' problem by encouraging<br>social entrepreneurship.</p>
+                <br/>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
  
     </main>
-    <div>
-      <p style="font-family: 'Quicksand:400', sans-serif; text-align: center; font-size: 300%;">HOW IT WORKS</p>
-      <p style="line-height: 2000%"><br/></p>
-    </div>
+  </div>
 
+   <div class="calendar-mobile">
+
+       <div class="caption" style="position: absolute; width: 100%; margin-top: 33%; text-align: center;">
+                <h1 style="font-size: 380% !important; color: white; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">ALLIANCES</h1>
+                <p style="font-size: 190%; font-weight: 300; color: white;"> We can do it alone.But you can make it better. We are looking for collabortors.To build a global squad of sustainability.</p>
+                <br>
+              </div>
+
+    <nav class="navbar navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
+
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+  <a href="index.html">HOME</a>
+  <a href="about-us.html">ABOUT US</a>
+  <a href="hackathon.html">HACKATHON</a>
+  <a href="challenges.html">CHALLENGES</a>
+  <a href="blogs.html">BLOGS</a>
+  <div class="register-here" style="background-color: #10a393; font-size: 100%; padding: 2px 0 2px 0;">
+              <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
+</div>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openSidebar()"><img src="img/hamburger.png" width="35"></span>
+</nav>
+
+
+
+
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class=" container-fluid">
+  <div class="row" style="width: 103%;">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6 navdown" style="text-align: right;">  
+          <a  class=" nav-link-down" href="about-us.html">
+        
+        <div class="btn btn-md active-link" style="color: white; width: 50%;font-family: 'Oswald', sans-serif;  font-weight: 200;">HACKATHON</div>
+      </a>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6 navdown" style="text-align: left;">
+       <a  class=" nav-link-down" href="Alliances.html">
+         
+        <div class="btn btn-md " style="  width: 50%; border: 1px solid #10a399;font-family: 'Oswald', sans-serif; font-weight: 200;">CHALLENGES</div>
+      </a>
+      </div>
+    
+
+  </div>
+
+  </div>
+</nav>
+<div style="margin-bottom: 50%;"></div>
+
+    <!-- Pitchfest START -->
     <div class="pitchfests_bg">
       <div class="container">
-        <p id="pitchfests_heading" style="font-size: 270%; color: white;">PITCHFESTS</p><br/>
+        <p id="pitchfests_heading" style="font-size: 450%; color: white; font-family: 'Oswald', sans-serif; font-weight: 600;">PITCHFESTS</p><br/>
           <div class="text-center">
 
+            <!-- Row 1 -->
             <div class="row" style="margin-bottom: 5%; margin-top: 3%;">
 
               <div class="col-lg-4 cities col-sm-6 col-12">
@@ -77,6 +164,8 @@
               </div>
 
             </div>
+
+            <!-- Row 2 -->
             <div class="row" style="margin-bottom: 5%; margin-top: 3%;">
 
                 <div class="cities col-lg-4 col-sm-6 col-12">
@@ -102,11 +191,257 @@
     </div>
   </div>
 <br/>
+
+    <!-- Final Hackathon section -->
     <div class="text-center">
     <p id="final_hackathon">FINAL HACKATHON</p>
     <p style="line-height: 500%"><br/></p>
       <img id="time_img" src="img/hackathon_img/36-01.png">
     </div>
+
+    <!-- Chessboard START -->
+    <div class="text-center">
+      <p style="line-height: 500%"><br/></p>
+      <p id="chessboard_heading">SUSTAINABILITY CHESSBOARD</p>
+      <p style="line-height: 500%"><br/></p>
+    </div>
+
+    <!-- Desktop View -->
+    <div class="desktop">
+      <div class="container" style="font-family: 'Quicksand', sans-serif; font-weight: 600;">
+        <div class="row" >
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+              ASSURED DECENT WAGES
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/1-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            AVAILABILITY OF FOOD
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/2-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            SAFE AND INSTANT HEALTHCARE
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/3-02.png" width="100"> 
+          </div> 
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/4-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            ACCESS TO EDUCATION
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/5-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            GENDER EQUALITY
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/6-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            SAFE WATER
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            OPTIMAL ENERGY SOURCES
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/Clean_energy-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            INDUSTRIES & JOB DEVELOPMENT
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/8-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            GROWTH OF INDUSTRIES
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/9-02.png" width="100">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/10-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            FAIR CHANCES FOR ALL
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/11-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            RESPONSIBLE PEOPLE
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/12-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px;">
+            RESPONSIBLE CONSUMPTION
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            CLIMATE ACTION
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/13-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            LIFE UNDER WATER
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/14-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            LIFE ON LAND
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/15-02.png" width="100">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/16-02.png" width="100"> 
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            PEACE AND JUSTICE
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/17-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 5%;">
+            PARTNERSHIPS & COLLAB
+          </div>
+          <div class="col-lg-2 col-2" style="height: 170px;"><img src="img/hackathon_img/17-02.png" width="100">
+          </div>
+          <div class="col-lg-2 col-2" style="background-color: rgba(0,0,0,0.2); height: 170px; padding-top: 6%;">
+            SUSTAINABLE GOALS
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <!-- MOBILE  -->
+    <div class="mobile">  
+      <div class="container" style="font-family: 'Quicksand', sans-serif; font-weight: 600; font-size: 60%;">
+        <div class="row" >
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+              ASSURED DECENT WAGES
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 6%"><img src="img/hackathon_img/1-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); padding-top: 8%;">
+            AVAILABILITY OF FOOD
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 6%"><img src="img/hackathon_img/2-02.png" width="50">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 8%;"><img src="img/hackathon_img/3-02.png" width="50"> 
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            SAFE AND INSTANT HEALTHCARE
+          </div> 
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 8%;"><img src="img/hackathon_img/4-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            ACCESS TO EDUCATION
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            GENDER EQUALITY
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 8%;"><img src="img/hackathon_img/5-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 9%;">
+            SAFE WATER
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 8%;"><img src="img/hackathon_img/6-02.png" width="50">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="height: 100px;"><img src="img/hackathon_img/Clean_energy-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px;">
+            OPTIMAL ENERGY SOURCES
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px;"><img src="img/hackathon_img/8-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px;">
+            INDUSTRIES & JOB DEVELOPMENT
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            GROWTH OF INDUSTRIES
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/9-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            FAIR CHANCES FOR ALL
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/10-02.png" width="50">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/11-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            RESPONSIBLE PEOPLE
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/12-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            RESPONSIBLE CONSUMPTION
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            CLIMATE ACTION
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/13-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            LIFE UNDER WATER
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/14-02.png" width="50">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="height: 100px;padding-top: 7%;"><img src="img/hackathon_img/15-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 9%;">
+            LIFE ON LAND
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px;padding-top: 7%;"><img src="img/hackathon_img/16-02.png" width="50"> 
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            PEACE AND JUSTICE
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            PARTNERSHIPS & COLLAB
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/17-02.png" width="50">
+          </div>
+          <div class="col-lg-2 col-3" style="background-color: rgba(0,0,0,0.2); height: 100px; padding-top: 8%;">
+            SUSTAINABLE GOALS
+          </div>
+          <div class="col-lg-2 col-3" style="height: 100px; padding-top: 7%;"><img src="img/hackathon_img/17-02.png" width="50">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Chessboard END -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

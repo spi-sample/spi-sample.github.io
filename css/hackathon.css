@@ -3,6 +3,38 @@ body {
   padding-bottom: 3rem;
 }
 
+.navbar-dark{
+  background-color: rgba(0,0,0,0.3) !important;
+  position: absolute;
+  z-index: 100000;
+  width: 100%;
+}
+.nav-link{
+
+ padding-right: 40px !important; 
+ font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.navdown{ 
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 0px;
+ }
+
+.nav-link-down{
+  color: #6D6D6D !important; 
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  text-decoration: none !important;
+
+}
+
+.active-link{
+  background-color: #10A399 !important;
+ 
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -22,9 +54,7 @@ display: block;
 
   font-family: 'Oswald', sans-serif;
 }
-.bg-dark{
-  background-color: rgba(0,0,0,0.9) !important;
-}
+
 
 .vl {
      border-left: 1px solid green;
@@ -60,7 +90,7 @@ display: block;
     }
 
 .carousel {
-  margin-bottom: 4rem;
+ 
   background-color: rgb(255, 255, 255) !important;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -71,7 +101,7 @@ display: block;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 35rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -79,7 +109,7 @@ display: block;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 35rem;
 }
 
 
@@ -139,17 +169,17 @@ display: block;
   }
 }
 
-@media screen and (min-width: 680px){
+@media screen and (min-width: 980px){
   .desktop{
     display: block;
   }
 
-  .mob-view{
+  .mobile{
     display: none;
   }
 }
 
-@media (max-width: 680px){
+@media (max-width: 980px){
   .heading{
     font-size: 300% !important;
   }
@@ -162,9 +192,190 @@ display: block;
     display: none;
   }
 
-  .mob-view{
+  .mobile{
     display: block;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .spi{
+    display: none;
+  }
+.calendar-home{
+  display: none;
+}
+
+  .calendar-mobile{
+    display: block;
+  }
+.carousel-caption{
+  bottom: 1rem !important;
+}
+
+
+.content_to_hide{
+  display: none;
+}
+
+ .btn {
+  width: 80% !important;
+}
+
+.text-center{
+  font-size: 350% !important
+}
+
+
+   .foot{
+    display: none;
+  }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width:768px) and (min-width:600px) {
+
+  .spi{
+    display: none;
+  }
+  .content_to_hide{
+  display: none;
+}
+
+
+
+.calendar-home{
+  display: none;
+}
+
+.calendar-mobile{
+  display: block;
+}
+
+
+.carousel-caption{
+  bottom: 4rem !important;
+}
+
+
+  .foot{
+    display: none;
+  }
+
+} 
+
+
+@media (max-width:850px) and (min-width:768px) {
+
+
+.navbar-nav{
+  font-size: 91%;
+  margin-left: 0% !important;
+}
+
+.register-here{
+  font-size: 100%;
+}
+
+
+.nav-link{
+  padding-right: 0px !important;
+  margin-right: 20px !important;
+}
+
+.calendar-mobile{
+  display: none;
+}
+
+.calendar-home{
+  display: block;
+}
+
+    .foot{
+  margin-right: 2% !important;
+  font-size: 95% !important;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width:992px) and (min-width:850px) {
+  
+.navbar-nav{
+  font-size: 100%;
+  margin-left: 2% !important;
+}
+
+.register-here{
+  font-size: 85%;
+}
+
+  .nav-link{
+  padding-right: 0px !important;
+  margin-right: 30px !important;
+}
+
+.calendar-mobile{
+  display: none;
+}
+.calendar-home{
+  display: block;
+}
+
+  .foot{
+  margin-right: 2% !important;
+  font-size: 95% !important;
+}
+
+} 
+
+@media (max-width:1300px) and (min-width:993px){
+
+
+.calendar-mobile{
+  display: none;
+}
+.calendar-home{
+  display: block;
+}
+
+.navbar-nav{
+  font-size: 100%;
+  margin-left: 30% !important;
+}
+
+.register-here{
+  font-size: 100%;
+}
+
+.nav-link{
+  padding-right: 5px !important;
+  margin-right: 20px !important;
+}
+.foot{
+  margin-right: 4% !important;
+}
+
+
+}
+
+@media only screen and (min-width: 1300px) {
+   .calendar-mobile{
+    display: none;
+   }
+  .calendar-home{
+  display: block;
+}
+}
+}
+
+
+
+.col-lg-2 {
+  text-align: center;
+  padding-top: 4.5%;
+  left: 0;
 }
 
 .pitchfests_bg{
@@ -187,8 +398,15 @@ display: block;
 }
 
 #final_hackathon{
-  font-size: 300%;
-  font-family: 'Quicksand:400', sans-serif;
+  font-size: 500% !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+#chessboard_heading{
+  font-size: 500% !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 /*.container{
@@ -214,6 +432,10 @@ img{
 
   #final_hackathon{
     font-size: 400%;
+  }
+  
+  #chessboard_heading{
+    font-size: 350%;
   }
 }
 

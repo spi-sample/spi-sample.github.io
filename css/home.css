@@ -4,16 +4,19 @@
 
 body {
 
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
-.bg-dark{
-  background-color: rgba(0,0,0,0.6) !important;
+.navbar-dark{
+  background-color: rgba(0,0,0,0.3) !important;
+  position: absolute;
+  z-index: 100000;
+  width: 100%;
 }
 .nav-link{
- color: #D5D7D6 !important;
- padding-right: 40px !important; 
+
+ margin-right: 40px !important; 
+ font-family: 'Quicksand', sans-serif !important;
 
 }
 
@@ -21,16 +24,6 @@ body {
 
 
 
-
-/* TRAPEZOID
----------------------------------------------------*/
-.register {
-    width: 0;
-  position:absolute;
-  bottom: 37%;
-  left: 0;
-  cursor: pointer;
-}
 
 
 
@@ -75,6 +68,8 @@ body {
 }
 
 
+
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -91,14 +86,6 @@ body {
   margin-left: .75rem;
 }
 
-.cities{
-  opacity: 0.9;
-  padding-right: 6%;
-}
-
-.cities:hover{
-  opacity: 1;
-}
 
 /* PARTICLES CSS
 ------------------------- */
@@ -138,13 +125,19 @@ body {
   background-position: center;
 }
 
-.register-mobile {
-    width: 0;
-  position:absolute;
-  bottom: 37%;
-  left: 0;
-  cursor: pointer;
+.home-link{
+  text-decoration: none !important;
 }
+
+.home-link h5{
+  opacity: 0.8;
+}
+
+.home-link h5:hover{
+  opacity: 1 !important;
+}
+
+
 
 
 /*-------------SIDEBAR----------------*/
@@ -187,8 +180,31 @@ body {
     font-size: 36px;
     margin-right: 25px;
 }
+/*--------------FOOTER--------------*/
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+.footer ul { 
+  list-style: none outside none; 
+  margin:0; 
+  margin-bottom: 2.5%!important;
+  padding-right: 1px; 
+  text-align: center;
+  overflow: hidden;
+   }
+    
+.footer li a{
+ 
+   margin: 0 3.8%;
+   float: left;
+   color: #595959 !important;
+}
+
+       
+
+
+
+
 
 
 
@@ -212,20 +228,51 @@ body {
 
 
 @media only screen and (max-width: 480px) {
-  .mob_text{
-  font-size: 90% !important;
-  bottom: 20% !important;
+
+
+
+.quotes{
+  bottom: -20% !important;
 }
+
+
+.main-page img{
+  width: 120px !important
+}
+
+.tss img{
+width: 200px !important;
+}
+
+.spi-footer img{
+width: 100px !important;
+}
+
+.main-page h1{
+  font-size: 160% !important;
+}
+
+.main-page h5{
+  font-size: 100% !important;
+}
+
+}
+
+@media (max-width: 600px) and (min-width: 480px) {
+  .quotes{
+    bottom: -22% !important;
+  }
+
+  .quotes img{
+  width: 200px !important;
+}
+
 
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .spi{
     display: none;
-  }
-
-  .register-mobile{
-    top: 15%;
   }
 
   .home{
@@ -239,6 +286,24 @@ body {
   display: none;
 }
 
+
+ 
+  .footer ul{
+    padding : 0!important;
+  }
+
+    .footer li a{
+      float: none;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+
+}
+
+.footer li{
+margin-bottom: 2% !important; 
+}
+
+ 
 
 
 } 
@@ -260,11 +325,35 @@ body {
   display: none;
 }
 
+.quotes{
+     bottom: -27% !important;
+  }
 
+  .footer ul{
+    padding : 0!important;
+  }
+
+    .footer li a{
+      float: none;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+
+}
+
+.footer li{
+margin-bottom: 2% !important; 
+}
+
+ 
+
+  .quotes img{
+    width: 270px !important
+
+  }
 
 } 
 
-@media (max-width:850px) and (min-width:768px) {
+@media (max-width:850px) and (min-width:769px) {
 
 .home-mobile{
     display: none;
@@ -274,13 +363,24 @@ body {
    }
 
 .navbar-nav{
-  font-size: 82%;
-  margin-left: 1% !important;
+  font-size: 91%;
+  margin-left: 0% !important;
 }
 
 .nav-link{
-  padding-right: 5px !important;
+  padding-right: 0px !important;
+  margin-right: 20px !important;
 }
+
+.quotes{
+     bottom: -29% !important;
+  }
+
+  .footer li a{
+  margin-right: 0% !important;
+  font-size: 90% !important;
+}
+ 
 }
 
 
@@ -293,12 +393,23 @@ body {
     display: block;
    }
 .navbar-nav{
-  font-size: 85%;
-  margin-left: 8% !important;
+  font-size: 100%;
+  margin-left: 2% !important;
 }
   .nav-link{
-  padding-right: 10px !important;
+  padding-right: 0px !important;
+  margin-right: 30px !important;
 }
+
+.quotes{
+     bottom: -30% !important;
+  }
+
+  .footer li a{
+  margin-right: 0% !important;
+  font-size: 90% !important;
+}
+ 
 
 } 
 
@@ -312,12 +423,21 @@ body {
    }
 
 .navbar-nav{
-  font-size: 90%;
+  font-size: 100%;
+  margin-left: 30% !important;
 }
 .nav-link{
-  padding-right: 20px !important;
+  padding-right: 5px !important;
+  margin-right: 20px !important;
 }
 
+.quotes{
+     bottom: -27% !important;
+  }
+    .footer li a{
+  margin-right: 2.2% !important;
+ 
+}
 
 }
 
@@ -333,39 +453,4 @@ body {
   
 }
 }
-
-/*---------------------footer---------------*/
-        footer{
-          margin-top: 10%;
-        }
-       .footer li {
-            list-style: none;
-            color: white;
-          }
-      
-         .footer h3 {
-            font-size: 20px;
-            }
-           .footer i {
-              margin-right: 9px;
-            }
-            @media (max-width: 480px) {
-             .footer.row {
-                text-align: center;
-              }
-             #comment {
-                margin-left: 10%;
-                
-              }
-             #contact {
-                border-bottom: 2px solid green;
-              }
-              #support {
-                padding-top: 20px;
-                border-bottom: 2px solid green;
-                padding-bottom: 20px;
-              }
-            }
-
-
 

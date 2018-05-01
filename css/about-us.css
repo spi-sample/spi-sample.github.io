@@ -1,7 +1,3 @@
-body {
- 
-  padding-bottom: 3rem;
-}
 
 
 .calendar-mobile{
@@ -139,10 +135,26 @@ body {
 
 
 
-
+.footer ul { 
+  list-style: none outside none; 
+  margin:0; 
+  margin-bottom: 2.5%!important;
+  padding-right: 1px; 
+  text-align: center;
+  overflow: hidden;
+   }
+    
+.footer li a{
+ 
+   margin: 0 1.2%;
+   float: left;
+   color: #595959 !important;
+}
 
 /*--------------------------
 SCREEN ADJUSTMENT-----------*/
+
+
 @media only screen and (max-width: 600px) {
   .spi{
     display: none;
@@ -158,6 +170,15 @@ SCREEN ADJUSTMENT-----------*/
   bottom: 1rem !important;
 }
 
+.footer li a{
+   float: none;
+  
+
+}
+ .get_in_touch{
+  font-size: 80% !important;
+   width: 35% !important;
+ }
 
 .content_to_hide{
   display: none;
@@ -170,6 +191,11 @@ SCREEN ADJUSTMENT-----------*/
 .text-center{
   font-size: 350% !important
 }
+
+
+   .foot{
+    display: none;
+  }
 
 } 
 
@@ -198,6 +224,17 @@ SCREEN ADJUSTMENT-----------*/
   bottom: 4rem !important;
 }
 
+
+   .footer li a{
+      float: none;
+ 
+ 
+
+}
+ .get_in_touch{
+  font-size: 80% !important;
+   width: 30% !important;
+ }
 } 
 
 
@@ -227,6 +264,14 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+  .footer li a{
+  margin-right: 1% !important;
+  font-size: 85% !important;
+}
+ .get_in_touch{
+  font-size: 80% !important;
+ }
+
 }
 
 
@@ -254,9 +299,17 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+   .footer li a{
+  margin-right: 1% !important;
+  font-size: 85% !important;
+}
+ .get_in_touch{
+  font-size: 80% !important;
+ }
+
 } 
 
-@media (max-width:1300px) and (min-width:993px){
+@media (max-width:1200px) and (min-width:993px){
 
 
 .calendar-mobile{
@@ -284,7 +337,7 @@ SCREEN ADJUSTMENT-----------*/
 
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
    .calendar-mobile{
     display: none;
    }
