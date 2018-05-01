@@ -1,8 +1,3 @@
-body {
- 
-  padding-bottom: 3rem;
-}
-
 
 
 .calendar-mobile{
@@ -133,7 +128,17 @@ body {
   margin-left: .75rem;
 }
 
+.foot{
+  float: left;
+  margin-right: 5% !important;
+  color: #595959 !important;
+}
 
+    
+       .footer li {
+            list-style: none;
+            color: white;
+          }
 
 
 
@@ -163,6 +168,42 @@ SCREEN ADJUSTMENT-----------*/
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .spi{
+    display: none;
+  }
+.calendar-home{
+  display: none;
+}
+
+  .calendar-mobile{
+    display: block;
+  }
+.carousel-caption{
+  bottom: 1rem !important;
+}
+
+
+.content_to_hide{
+  display: none;
+}
+
+ .btn {
+  width: 80% !important;
+}
+
+.text-center{
+  font-size: 350% !important
+}
+
+
+   .foot{
+    display: none;
+  }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width:768px) and (min-width:600px) {
 
   .spi{
@@ -172,6 +213,8 @@ SCREEN ADJUSTMENT-----------*/
   display: none;
 }
 
+
+
 .calendar-home{
   display: none;
 }
@@ -180,6 +223,15 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+
+.carousel-caption{
+  bottom: 4rem !important;
+}
+
+
+  .foot{
+    display: none;
+  }
 
 } 
 
@@ -210,6 +262,11 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+    .foot{
+  margin-right: 2% !important;
+  font-size: 95% !important;
+}
+
 }
 
 
@@ -237,6 +294,11 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+  .foot{
+  margin-right: 2% !important;
+  font-size: 95% !important;
+}
+
 } 
 
 @media (max-width:1300px) and (min-width:993px){
@@ -262,7 +324,9 @@ SCREEN ADJUSTMENT-----------*/
   padding-right: 5px !important;
   margin-right: 20px !important;
 }
-
+.foot{
+  margin-right: 4% !important;
+}
 
 
 }
@@ -276,6 +340,7 @@ SCREEN ADJUSTMENT-----------*/
 }
 }
 }
+
 
 
 

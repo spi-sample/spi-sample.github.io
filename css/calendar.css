@@ -157,12 +157,26 @@ SCREEN ADJUSTMENT-----------*/
   .calendar-mobile{
     display: block;
   }
+.carousel-caption{
+  bottom: 1rem !important;
+}
+
+
 .content_to_hide{
   display: none;
 }
 
-.navdown{
-    width: 33.3% !important;
+ .btn {
+  width: 80% !important;
+}
+
+.text-center{
+  font-size: 350% !important
+}
+
+
+   .foot{
+    display: none;
   }
 
 } 
@@ -177,6 +191,8 @@ SCREEN ADJUSTMENT-----------*/
   display: none;
 }
 
+
+
 .calendar-home{
   display: none;
 }
@@ -185,8 +201,14 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
-.navdown{
-    width: 30% !important;
+
+.carousel-caption{
+  bottom: 4rem !important;
+}
+
+
+  .foot{
+    display: none;
   }
 
 } 
@@ -196,8 +218,8 @@ SCREEN ADJUSTMENT-----------*/
 
 
 .navbar-nav{
-  font-size: 100%;
-  margin-left: 1% !important;
+  font-size: 91%;
+  margin-left: 0% !important;
 }
 
 .register-here{
@@ -218,6 +240,11 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+    .foot{
+  margin-right: 2% !important;
+  font-size: 95% !important;
+}
+
 }
 
 
@@ -225,8 +252,8 @@ SCREEN ADJUSTMENT-----------*/
 @media (max-width:992px) and (min-width:850px) {
   
 .navbar-nav{
-  font-size: 85%;
-  margin-left: 8% !important;
+  font-size: 100%;
+  margin-left: 2% !important;
 }
 
 .register-here{
@@ -234,7 +261,8 @@ SCREEN ADJUSTMENT-----------*/
 }
 
   .nav-link{
-  padding-right: 5px !important;
+  padding-right: 0px !important;
+  margin-right: 30px !important;
 }
 
 .calendar-mobile{
@@ -244,9 +272,14 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+  .foot{
+  margin-right: 2% !important;
+  font-size: 95% !important;
+}
+
 } 
 
-@media (max-width:1200px) and (min-width:993px){
+@media (max-width:1300px) and (min-width:993px){
 
 
 .calendar-mobile{
@@ -258,7 +291,7 @@ SCREEN ADJUSTMENT-----------*/
 
 .navbar-nav{
   font-size: 100%;
-  margin-left: 35% !important;
+  margin-left: 30% !important;
 }
 
 .register-here{
@@ -269,12 +302,14 @@ SCREEN ADJUSTMENT-----------*/
   padding-right: 5px !important;
   margin-right: 20px !important;
 }
-
+.foot{
+  margin-right: 4% !important;
+}
 
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
    .calendar-mobile{
     display: none;
    }
@@ -283,6 +318,7 @@ SCREEN ADJUSTMENT-----------*/
 }
 }
 }
+
 
 
 

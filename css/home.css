@@ -185,13 +185,11 @@ body {
 
 .foot{
   float: left;
-  margin-right: 2.5%;
+  margin-right: 2.8% !important;
   color: #595959 !important;
 }
 
-        footer{
-          margin-top: 10%;
-        }
+    
        .footer li {
             list-style: none;
             color: white;
@@ -227,10 +225,6 @@ body {
 @media only screen and (max-width: 480px) {
 
 
-  .mob_text{
-  font-size: 90% !important;
-  bottom: 20% !important;
-}
 
 .quotes{
   bottom: -20% !important;
