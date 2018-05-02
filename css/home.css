@@ -252,10 +252,6 @@ body {
 width: 200px !important;
 }
 
-.spi-footer img{
-width: 150px !important;
-margin-top: 6% !important;
-}
 
 .main-page h1{
   font-size: 160% !important;
@@ -302,6 +298,11 @@ margin-top: 6% !important;
   }
 .content_to_hide{
   display: none;
+}
+
+.spi-footer img{
+width: 150px !important;
+margin-top: 6% !important;
 }
 
 
@@ -353,6 +354,11 @@ margin-bottom: 2% !important;
 .quotes{
      bottom: -27% !important;
   }
+
+  .spi-footer img{
+width: 150px !important;
+margin-top: 6% !important;
+}
 
   .footer ul{
     padding : 0!important;
