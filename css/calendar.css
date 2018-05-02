@@ -138,22 +138,33 @@
 
 
 
-.foot{
-  float: left;
-  margin-right: 5% !important;
-  color: #595959 !important;
+.footer ul { 
+  list-style: none outside none; 
+  margin:0; 
+  margin-bottom: 2.5%!important;
+  padding-right: 1px; 
+  text-align: center;
+  overflow: hidden;
+   }
+    
+.footer li a{
+ text-decoration: none;
+   margin: 0 3.8%;
+   float: left;
+   color: #595959 !important;
 }
 
-    
-       .footer li {
-            list-style: none;
-            color: white;
-          }
+       
+.social:hover{
+  opacity: 0.6;
+}
 
 
 
 /*--------------------------
 SCREEN ADJUSTMENT-----------*/
+
+
 @media only screen and (max-width: 600px) {
   .spi{
     display: none;
@@ -165,34 +176,32 @@ SCREEN ADJUSTMENT-----------*/
   .calendar-mobile{
     display: block;
   }
-.content_to_hide{
-  display: none;
+
+.spi-footer img{
+width: 150px !important;
+margin-top: 6% !important;
 }
 
-.btn {
-  width: 80% !important;
-}
 
-
-
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-  .spi{
-    display: none;
-  }
-.calendar-home{
-  display: none;
-}
-
-  .calendar-mobile{
-    display: block;
-  }
 .carousel-caption{
   bottom: 1rem !important;
 }
 
+ .footer ul{
+    padding : 0!important;
+  }
+
+    .footer li a{
+      float: none;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+
+}
+
+.footer li{
+margin-bottom: 2% !important; 
+}
+  
 
 .content_to_hide{
   display: none;
@@ -207,9 +216,14 @@ SCREEN ADJUSTMENT-----------*/
 }
 
 
-   .foot{
+
+   .social_mobile{
+    display: block;
+   }
+
+   .social_desktop{
     display: none;
-  }
+   }
 
 } 
 
@@ -233,21 +247,56 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
+.caption{
+  margin-top: 32%!important;
+}
 
 .carousel-caption{
   bottom: 4rem !important;
 }
 
+.spi-footer img{
+width: 150px !important;
+margin-top: 6% !important;
+}
 
-  .foot{
-    display: none;
+
+
+    .footer ul{
+    padding : 0!important;
   }
 
+    .footer li a{
+      float: none;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+
+}
+
+.footer li{
+margin-bottom: 2% !important; 
+}
+
+
+   .social_mobile{
+    display: block;
+   }
+
+   .social_desktop{
+    display: none;
+   }
 } 
 
 
 @media (max-width:850px) and (min-width:768px) {
 
+.calendar-mobile{
+  display: none;
+}
+
+.calendar-home{
+  display: block;
+}
 
 .navbar-nav{
   font-size: 91%;
@@ -264,18 +313,21 @@ SCREEN ADJUSTMENT-----------*/
   margin-right: 20px !important;
 }
 
-.calendar-mobile{
-  display: none;
+
+
+   .footer li a{
+  margin-right: 0% !important;
+  font-size: 90% !important;
 }
 
-.calendar-home{
-  display: block;
-}
+  .social_mobile{
+    display: none;
+   }
 
-    .foot{
-  margin-right: 2% !important;
-  font-size: 95% !important;
-}
+   .social_desktop{
+    display: block;
+   }
+ 
 
 }
 
@@ -304,14 +356,23 @@ SCREEN ADJUSTMENT-----------*/
   display: block;
 }
 
-  .foot{
-  margin-right: 2% !important;
-  font-size: 95% !important;
+  .footer li a{
+  margin-right: 0% !important;
+  font-size: 90% !important;
 }
+
+  .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
+ 
 
 } 
 
-@media (max-width:1300px) and (min-width:993px){
+@media (max-width:1200px) and (min-width:993px){
 
 
 .calendar-mobile{
@@ -334,22 +395,65 @@ SCREEN ADJUSTMENT-----------*/
   padding-right: 5px !important;
   margin-right: 20px !important;
 }
-.foot{
-  margin-right: 4% !important;
+
+    .footer li a{
+  margin-right: 2.2% !important;
+ 
+}
+
+ .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
+
+ }
+ 
+@media (max-width:1300px) and (min-width:1200px){
+.nav-link{
+    margin-right: 20px !important;
+    padding-right: 5px !important;
+  }
+
+   .calendar-mobile{
+    display: none;
+   }
+   .calendar-home{
+    display: block;
+   }
+
+    .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
 }
 
 
-}
 
 @media only screen and (min-width: 1300px) {
    .calendar-mobile{
     display: none;
    }
-  .calendar-home{
-  display: block;
+   .calendar-home{
+    display: block;
+   }
+
+   .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
+  
 }
 }
-}
+
 
 
 
