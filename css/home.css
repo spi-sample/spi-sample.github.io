@@ -15,7 +15,7 @@ body {
 }
 .nav-link{
 
- margin-right: 40px !important; 
+ margin-right: 30px !important; 
  font-family: 'Quicksand', sans-serif !important;
 
 }
@@ -194,14 +194,16 @@ body {
    }
     
 .footer li a{
- 
+ text-decoration: none;
    margin: 0 3.8%;
    float: left;
    color: #595959 !important;
 }
 
        
-
+.social:hover{
+  opacity: 0.6;
+}
 
 
 
@@ -229,7 +231,13 @@ body {
 
 @media only screen and (max-width: 480px) {
 
+.mob_text{
+  bottom: 27% !important;
+}
 
+.mob_text h1{
+  font-size: 250% !important;
+}
 
 .quotes{
   bottom: -20% !important;
@@ -245,7 +253,8 @@ width: 200px !important;
 }
 
 .spi-footer img{
-width: 100px !important;
+width: 150px !important;
+margin-top: 6% !important;
 }
 
 .main-page h1{
@@ -254,6 +263,15 @@ width: 100px !important;
 
 .main-page h5{
   font-size: 100% !important;
+}
+
+}
+
+@media only screen and (max-width: 296px) {
+
+
+.mob_text h1{
+  font-size: 200% !important;
 }
 
 }
@@ -303,7 +321,14 @@ width: 100px !important;
 margin-bottom: 2% !important; 
 }
 
- 
+   .social_mobile{
+    display: block;
+   }
+
+   .social_desktop{
+    display: none;
+   }
+
 
 
 } 
@@ -351,6 +376,14 @@ margin-bottom: 2% !important;
 
   }
 
+   .social_mobile{
+    display: block;
+   }
+
+   .social_desktop{
+    display: none;
+   }
+
 } 
 
 @media (max-width:850px) and (min-width:769px) {
@@ -380,6 +413,14 @@ margin-bottom: 2% !important;
   margin-right: 0% !important;
   font-size: 90% !important;
 }
+
+ .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
  
 }
 
@@ -409,6 +450,14 @@ margin-bottom: 2% !important;
   margin-right: 0% !important;
   font-size: 90% !important;
 }
+
+ .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
  
 
 } 
@@ -439,15 +488,52 @@ margin-bottom: 2% !important;
  
 }
 
+ .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
+
 }
+@media (max-width: 1300px) and (min-width: 1200px){
+  .nav-link{
+    margin-right: 20px !important;
+    padding-right: 5px !important;
+  }
 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
    .home-mobile{
     display: none;
    }
    .home{
+    display: block;
+   }
+
+    .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
+    display: block;
+   }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+   .home-mobile{
+    display: none;
+   }
+   .home{
+    display: block;
+   }
+
+   .social_mobile{
+    display: none;
+   }
+
+   .social_desktop{
     display: block;
    }
   
