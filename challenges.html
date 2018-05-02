@@ -15,7 +15,7 @@
     <link rel="icon" href="icon.ico" />
 
     <!-- Bootstrap core CSS -->
-    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="css/challenges.css" rel="stylesheet">
@@ -24,40 +24,40 @@
 
      <header class="content_to_hide">
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><img src="img/home_img/Hackathon Logo_FINAL-03.png" width="120"></a>
+        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse" style="width: 100%;">
-          <ul class="navbar-nav" style="margin-left: 45%;">
+           <ul class="navbar-nav" style="margin-left: 45%;">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-            </li>
-   
-             <li class="nav-item">
-              <a class="nav-link" href="#">HACKATHON</a>
+              <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="challenge.html">CHALLENGES</a>
+              <a class="nav-link" href="about-us.html">ABOUT</a>
+            </li>  
+             <li class="nav-item">
+              <a class="nav-link active" href="hackathon.html">HACKATHON</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link " href="calendar.html">CALENDER</a>
             </li>
+          
             </ul>
              </div>
-             <div class="register-here" style="background-color: #4CC5C5; font-size: 100%; margin-right: 3%; padding: 2px 0 2px 0;">
+             <div class="register-here" style="background-color: #3FA3A3; font-size: 100%; margin-right: 3%; padding: 2px 0 2px 0;">
               <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
 
             </div>
           
          
          <div class="spi">
-          <img src="img/home_img/SPI Cinemas_logo-02.png" width="120">
+          <img src="img/SPI Cinemas_logo-02.png" width="120">
          </div>
         
       </nav>
     </header>
-
+<div class="calendar-home">
      <main role="main">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -66,10 +66,10 @@
             <img class="first-slide" src="img/challenge_img/Chal.jpg" alt="First slide" width="100">
             <div class="container">
               <div class="carousel-caption text-right" style="margin-bottom: 5%;" >
-                <h2 style="font-size: 350%; color:white ; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">CHALLENGES</h2>
+                <h2 style="font-size: 400%; color:white ; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">CHALLENGES</h2>
                 <br/>
-                <hr>
-                <p style=" font-size: 140%; opacity: 0.8; font-family: 'Quicksand', sans-serif;">
+    
+                <p style=" font-size: 180%; opacity: 0.9; font-family: 'Quicksand', sans-serif;">
                  Global Challeneges are a part of our daily life. We miss<br/> the small problems in the big debates. Let's start local. <br/>How can you make a difference?</p>
                 <br/>
               </div>
@@ -78,8 +78,61 @@
         </div>
       </div>
 </main>
+</div>
 
-<div style="text-align: center; font-size:200%; background-color: #2bafa9;">
+ <div class="calendar-mobile">
+
+       <div class="caption" style="position: absolute; width: 100%; margin-top: 33%; text-align: center; padding: 0 18px 0 18px;">
+                <h1 style="font-size: 380% !important; font-family: 'Oswald', sans-serif; font-weight: 700; color: white;" class="heading">CHALLENGES</h1>
+                <p style="font-size: 190%; font-weight: 300; color: white;"> Global Challeneges are a part of our daily life. We miss the small problems in the big debates. Let's start local.How can you make a difference?</p>
+                <br>
+              </div>
+
+    <nav class="navbar navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
+
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+  <a href="index.html">HOME</a>
+  <a href="about-us.html">ABOUT US</a>
+  <a href="hackathon.html">HACKATHON</a>
+  <a href="calendar.html">CALENDAR</a>
+
+  <div class="register-here" style="background-color: #10a399; font-size: 100%; padding: 2px 0 2px 0;">
+              <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
+</div>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openSidebar()"><img src="img/hamburger.png" width="35"></span>
+</nav>
+
+
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light" >
+  <div class=" container-fluid">
+  <div class="row" style="width: 103%;">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6 navdown" style="text-align: right;">  
+          <a  class=" nav-link-down" href="hackathon.html">
+        
+        <div class="btn btn-md " style=" border: 1px solid #10a399; width: 50%;font-family: 'Oswald', sans-serif;  font-weight: 200;">HACKATHON</div>
+      </a>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6 navdown" style="text-align: left;">
+       <a  class=" nav-link-down" href="challenges.html">
+         
+        <div class="btn btn-md active-link" style=" color: white; width: 50%; font-family: 'Oswald', sans-serif; font-weight: 200;">CHALLENGES</div>
+      </a>
+      </div>
+    
+
+  </div>
+
+  </div>
+</nav>
+
+<div style="text-align: center; font-size:200%; background-color: #2bafa9; margin-top: 4%;">
         <p style="line-height: 500%"><br/></p>
           <p style="margin-bottom: 0;"> PICK A CHALLENGE</p>
           <p style="line-height: 500%; margin-bottom: 0;"><br></p>
@@ -126,7 +179,7 @@
       <div align="center">
         <img src="img/challenge_img/1-02.png" width="120" hspace="50">
         <img src="img/challenge_img/4-02.png" width="120" hspace="50">
-        <img src=img/challenge_img/8-02.png" width="120" hspace="50" >
+        <img src="img/challenge_img/8-02.png" width="120" hspace="50" >
       </div>
       
       <br/>
@@ -344,31 +397,61 @@
         <img src="img/challenge_img/11-02.png" width="120" hspace="50" >
       </div>
          <br/>
+         
+<!-- Footer -->
+<div style="background-color: rgba(0,0,0,0.05); margin-top: 0;" >
+        <div class="footer container" style=" padding-top: 2%; ">
+          
+          <div class="social_mobile" style="text-align: center; margin-top: 3%; margin-bottom: 5%;">
+             <a href="" class="social"><img src="img/FACEBOOK-01.png" width="30"></a>
+             <a href="" class="social"><img src="img/INSTAGRAM-01.png" width="30"></a>
+             <a href="" class="social"><img src="img/TWITTER-01.png" width="30"></a>
+             <a href="" class="social"><img src="img/YOUTUBE-01.png" width="30"></a>
+           </div>
 
-      <div style="text-align: center; font-size:200%; background-color: black;">
-        <p style="line-height: 1000%"><br/></p>  
-        </div>
+        <ul>
+            <li class="nav-item">
+              <a  href="index.html">HOME<span class="sr-only">(current)</span></a>
+            </li>
+             <li class="nav-item">
+              <a  href="about-us.html">ABOUT</a>
+            </li>  
+            <li class="nav-item">
+              <a  href="Hackathon.html">HACKATHON</a>
+            </li>
+            <li class="nav-item">
+              <a  href="calendar.html">CALENDER</a>
+            </li>
+            <li class="nav-item">
+              <a  href="challenges.html">CHALLENGES</a>
+            </li>
+             <li class="nav-item">
+              <a  href="Alliances.html">ALLIANCES</a>
+            </li>
+            <li class="nav-item">
+              <a  href="faq.html">FAQ</a>
+            </li>
+             
+           </ul>
+          
+
+          <div style="text-align: center;">
+            <button class="btn btn-sm" style="background-color:#3FA3A3; color: white; font-family: 'Quicksand' , sans-serif; padding: 5px !important; width: 200px !important; ">GET IN TOUCH</button>
+           </div>
+
+           <div class="social_desktop" style="text-align: center; margin-top: 3%;">
+             <a href="" class="social"><img src="img/FACEBOOK-01.png" width="30"></a>
+             <a href="" class="social"><img src="img/INSTAGRAM-01.png" width="30"></a>
+             <a href="" class="social"><img src="img/TWITTER-01.png" width="30"></a>
+             <a href="" class="social"><img src="img/YOUTUBE-01.png" width="30"></a>
+           </div>
+
+           <div class="spi-footer" style="text-align: center; margin-top: 4%;">
+             <img src="img/SPI logo.png" width="180">
+           </div>
+             </div>
            
-     <div class="calendar-mobile">
-
-    <nav class="navbar navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><img src="img/home_img/Hackathon Logo_FINAL-03.png" width="120"></a>
-
-    <div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
-  <a href="#">HOME</a>
-  <a href="about/about.html">ABOUT US</a>
-  <a href="#">HACKATHON</a>
-  <a href="#">COLLABORATIONS</a>
-  <a href="#">FAQS</a>
-  <a href="#">CALENDAR</a>
-</div>
-
-<!-- Use any element to open the sidenav -->
-<span onclick="openSidebar()"><img src="img/home_img/hamburger.png" width="35"></span>
-</nav>
-
-
+    </div>
 
  
 
@@ -384,14 +467,7 @@
         document.getElementById("mySidebar").style.width = "0";
     }
 
-    $(window).bind("resize", function () {
-    console.log($(this).width())
-    if ($(this).width() <= 768) {
-        $('.text-right').removeClass('text-right')
-    } else {
-        $('.text-right').addClass('text-right')
-    }
-}).trigger('resize');
+  
 
 // Get the modal
 var modal1= document.querySelector('#myModal1');
