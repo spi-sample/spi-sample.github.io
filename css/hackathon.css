@@ -247,15 +247,16 @@ display: block;
     display: block;
   }
   .mobile .container{
-    font-size: 70% !important;
+    font-size: 60% !important;
   }
 
   .mobile .container .col-lg-2{
-    padding-top: 13% !important;
+    height: 100px !important;
+    padding-top: 8% !important;
   }
 
   .mobile .container .col-lg-2 img{
-    width: 70px !important;
+    width: 50px !important;
 
 }
 }
