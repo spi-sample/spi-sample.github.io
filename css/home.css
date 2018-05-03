@@ -194,6 +194,8 @@ body {
    }
     
 .footer li a{
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: 300;
  text-decoration: none;
    margin: 0 3.8%;
    float: left;
