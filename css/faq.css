@@ -165,6 +165,7 @@
 SCREEN ADJUSTMENT-----------*/
 
 
+
 @media only screen and (max-width: 600px) {
   .spi{
     display: none;
@@ -176,6 +177,10 @@ SCREEN ADJUSTMENT-----------*/
   .calendar-mobile{
     display: block;
   }
+
+  .card-header button{
+  font-size: 135% !important;
+}
 
 .spi-footer img{
 width: 150px !important;
@@ -227,6 +232,14 @@ margin-bottom: 2% !important;
 
 } 
 
+@media only screen and (max-width: 480px) {
+.card-header button{
+  font-size: 90% !important;
+}
+
+}
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width:768px) and (min-width:600px) {
 
@@ -237,6 +250,9 @@ margin-bottom: 2% !important;
   display: none;
 }
 
+.card-header button{
+  font-size: 150% !important;
+}
 
 
 .calendar-home{
