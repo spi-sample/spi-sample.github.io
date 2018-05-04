@@ -61,14 +61,14 @@
 
 
     <nav class="navbar navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html"><img src="img/Hackathon Logo_FINAL-03.png" width="120"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../img/Hackathon Logo_FINAL-03.png" width="120"></a>
 
     <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
-  <a href="index.html">HOME</a>
-  <a href="about-us.html">ABOUT US</a>
-  <a href="hackathon.html">HACKATHON</a>
-  <a href="calendar.html">CALENDAR</a>
+  <a href="../index.html">HOME</a>
+  <a href="../about-us.html">ABOUT US</a>
+  <a href="../hackathon.html">HACKATHON</a>
+  <a href="../calendar.html">CALENDAR</a>
 
   <div class="register-here" style="background-color: #3FA3A3; font-size: 100%; padding: 2px 0 2px 0;">
               <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
@@ -76,7 +76,7 @@
 </div>
 
 <!-- Use any element to open the sidenav -->
-<span onclick="openSidebar()"><img src="img/hamburger.png" width="35"></span>
+<span onclick="openSidebar()"><img src="../img/hamburger.png" width="35"></span>
 </nav>
 
 
@@ -141,3 +141,6 @@
   
 
     </script>
+
+  </body>
+  </html>
