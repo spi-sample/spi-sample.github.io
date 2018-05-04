@@ -295,6 +295,18 @@ display: block;
     width: 50px !important;
 
 }
+
+.caption{
+  margin-top: 45% !important;
+}
+
+.caption h1{
+  font-size: 300% !important;
+}
+
+.caption p{
+  font-size: 150% !important;
+}
 }
 
 @media (max-width: 600px) and (min-width: 480px){
