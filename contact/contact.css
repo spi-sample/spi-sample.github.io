@@ -126,8 +126,13 @@ width: 150px !important;
 margin-top: 6% !important;
 }
 
+.thanks{
+  margin-top: 50% !important;
+}
 
-
+.image{
+  height: 100vh !important;
+}
 
  .footer ul{
     padding : 0!important;

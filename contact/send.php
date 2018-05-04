@@ -143,10 +143,10 @@ try {
 
 ?>
 
-<div style="width: 100%; text-align: center; margin-top:18%;">
-<h1 style="font-family:'Oswald',sans-serif; font-weight: 600; color: #3FA3A3; font-size: 350%; ">Thanks for reaching out to us!</h1>
+<div class="thanks" style="width: 100%; text-align: center; margin-top:18%;">
+<h1 style="font-family:'Oswald',sans-serif; font-weight: 600; color: #3FA3A3; font-size: 250%; ">Thanks for reaching out to us!</h1>
 <br>
-<p style="font-family: 'Quicksand',sans-serif; font-size: 150%; margin-bottom: 0; ">Do follow us on:</p>
+<p style="font-family: 'Quicksand',sans-serif; font-size: 120%; margin-bottom: 0; ">Do follow us on:</p>
 <div>
              <a href="" class="social"><img src="../img/FACEBOOK-01.png" width="30"></a>
              <a href="" class="social"><img src="../img/INSTAGRAM-01.png" width="30"></a>
