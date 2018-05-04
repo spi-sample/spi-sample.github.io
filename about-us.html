@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 
+
+ 
+ 
+
     <title>About Us</title>
 
     <!-- Bootstrap core CSS -->
@@ -20,6 +24,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/about-us.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body  style=" font-family: 'Quicksand', sans-serif;">
 
@@ -59,33 +64,9 @@
       </nav>
     </header>
 
-<div class="calendar-home">
-
-<main role="main">
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item1 active" style="background-color: transparent !important;">
-            <img class="first-slide" src="img/about_img/ABOUT-02.jpg" alt="First slide" width="100">
-            <div class="container">
-              <div class="carousel-caption text-right"  >
-                <h1 style="font-size: 400%; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">ABOUT</h1>
-                <p style="font-size: 200%; font-weight: 300; line-height: 35px;">We bring the community together to identify, analyze,<br> validate and solve 'Glocal' problems by encouraging <br> social entrepreneurship.</p>
-                <br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-</main>
-
-	
-</div>
-     
-
      <div class="calendar-mobile">
 
-     	 <div class="caption" style="position: absolute; width: 100%; margin-top: 33%; text-align: center; padding: 0 18px 0 18px;">
+       <div class="caption" style="position: absolute; width: 100%; margin-top: 33%; text-align: center; padding: 0 18px 0 18px;">
                 <h1 style="font-size: 380% !important; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">ABOUT</h1>
                 <p style="font-size: 190%; font-weight: 300; color: white;">We bring the community together to identify, analyze, validate and solve 'Glocal' problems by encouraging social entrepreneurship.</p>
                 <br>
@@ -113,7 +94,34 @@
 
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light">
+<div class="calendar-home">
+
+<main role="main">
+
+     <div class="background">
+      <div class="text-caption">
+                <h1 style="font-size: 450%; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">ABOUT</h1>
+                <br>
+                <p style="font-size: 210%; font-weight: 300; line-height: 35px;">We bring the community together to identify, analyze,<br> validate and solve 'Glocal' problems by encouraging <br> social entrepreneurship.</p>
+                <br>
+              </div>
+
+          <div id="button" >
+            <img src="img/Arrow.png" width="180">
+          </div>
+
+          </div>
+         
+</main>
+
+	
+</div>
+     
+
+    
+
+<div id="main">
+<nav class="navbar navbar-expand-lg navbar-light" >
   <div class=" container-fluid">
   <div class="row" style="width: 103%;">
       <div class="col-lg-6 col-md-6 col-sm-6 col-6 navdown" style="text-align: right;">  
@@ -134,7 +142,8 @@
 
   </div>
 </nav>
-
+</div>
+ 
  <!-- Our Mission start -->
     <div class="bg">
       <div class="container">
@@ -167,6 +176,7 @@
     
     </div>
     </div>
+  
     <!-- Our Mission ends -->
 
     <!-- VALUES START -->
@@ -339,9 +349,14 @@
     </div>
 
 
-
     <script>
 
+    $("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#main").offset().top
+    }, 1000);
+});
+ 
     function openSidebar() {
     document.getElementById("mySidebar").style.width = "100%";
     }
@@ -350,6 +365,7 @@
     function closeSidebar() {
         document.getElementById("mySidebar").style.width = "0";
     }
+
 
   
     </script>
