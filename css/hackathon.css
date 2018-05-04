@@ -333,7 +333,7 @@ display: block;
 }
 
 
-@media (max-width: 992px) and (min-width: 768px){
+@media (max-width: 992px) and (min-width: 769px){
 
 
   .featurette-image{
@@ -492,7 +492,7 @@ margin-bottom: 2% !important;
 } 
 
 
-@media (max-width:850px) and (min-width:768px) {
+@media (max-width:850px) and (min-width:769px) {
 
 .calendar-mobile{
   display: none;
