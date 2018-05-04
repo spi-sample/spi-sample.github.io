@@ -278,6 +278,20 @@ SCREEN ADJUSTMENT-----------*/
 /*--------------------------
 SCREEN ADJUSTMENT-----------*/
 
+@media only screen and (max-width: 480px){
+  .caption{
+  margin-top: 45% !important;
+}
+
+.caption h1{
+  font-size: 300% !important;
+}
+
+.caption p{
+  font-size: 150% !important;
+}
+}
+
 
 @media only screen and (max-width: 600px) {
   .spi{

@@ -193,11 +193,6 @@ animation-name: bounce;
 /*--------------------------
 SCREEN ADJUSTMENT-----------*/
 
-@media only screen and (max-width: 480px) {
-.story_heading{
-  font-size: 365% !important;
-}
-}
 
 @media only screen and (max-width: 600px) {
   .spi{
@@ -210,6 +205,10 @@ SCREEN ADJUSTMENT-----------*/
   .calendar-mobile{
     display: block;
   }
+
+.card-header button{
+  font-size: 130% !important;
+}
 
 .our_story .col-12{
   text-align: center !important;
@@ -262,6 +261,29 @@ margin-bottom: 2% !important;
 
 } 
 
+
+@media only screen and (max-width: 480px) {
+.story_heading{
+  font-size: 365% !important;
+}
+
+.caption{
+  margin-top: 45% !important;
+}
+
+.caption h1{
+  font-size: 300% !important;
+}
+
+.caption p{
+  font-size: 150% !important;
+}
+
+.card-header button{
+  font-size: 90% !important;
+}
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width:768px) and (min-width:600px) {
 
@@ -272,6 +294,9 @@ margin-bottom: 2% !important;
   display: none;
 }
 
+.card-header button{
+  font-size: 150% !important;
+}
 
 
 .calendar-home{

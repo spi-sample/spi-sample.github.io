@@ -204,6 +204,19 @@ SCREEN ADJUSTMENT-----------*/
 .story_heading{
   font-size: 365% !important;
 }
+
+.caption{
+  margin-top: 45% !important;
+}
+
+.caption h1{
+  font-size: 300% !important;
+}
+
+.caption p{
+  font-size: 150% !important;
+}
+
 }
 
 @media only screen and (max-width: 600px) {
