@@ -8,7 +8,7 @@
     <link rel="icon" href="../../../../favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
 
     <title>Challenges</title>
     
@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/challenges.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body style="background-color: white; font-family: 'Quicksand', sans-serif;">
 
@@ -59,23 +60,20 @@
 <div class="calendar-home">
      <main role="main">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="background-color: transparent !important;">
-            <img class="first-slide" src="img/challenge_img/Chal.jpg" alt="First slide" width="100">
-            <div class="container">
-              <div class="carousel-caption text-right" style="margin-bottom: 5%;" >
-                <h2 style="font-size: 400%; color:white ; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">CHALLENGES</h2>
-                <br/>
-    
-                <p style=" font-size: 180%; opacity: 0.9; font-family: 'Quicksand', sans-serif;">
-                 Global Challeneges are a part of our daily life. We miss<br/> the small problems in the big debates. Let's start local. <br/>How can you make a difference?</p>
-                <br/>
+      <div class="background">
+      <div class="text-caption">
+                <h1 style="font-size: 450%; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">CHALLENGES</h1>
+                <br>
+                <p style="font-size: 210%; font-weight: 300; line-height: 35px;">Global Challeneges are a part of our daily life. We miss<br> the small problems in the big debates. Let's start local.<br>How can you make a difference?</p>
+                <br>
               </div>
-            </div>
+
+          <div id="button" >
+            <img src="img/Arrow.png" width="180">
           </div>
-        </div>
-      </div>
+
+          </div>
+         
 </main>
 </div>
 
@@ -108,7 +106,7 @@
 
 
 </div>
-
+<div id="main">
 <nav class="navbar navbar-expand-lg navbar-light" >
   <div class=" container-fluid">
   <div class="row" style="width: 103%;">
@@ -130,11 +128,12 @@
 
   </div>
 </nav>
+</div>
 
 <div style="text-align: center; font-size:200%; background-color: #2bafa9; margin-top: 0.5%;">
-        <p style="line-height: 500%"><br/></p>
+        <p style="line-height: 100%"><br/></p>
           <p style="margin-bottom: 0;"> PICK A CHALLENGE</p>
-          <p style="line-height: 500%; margin-bottom: 0;"><br></p>
+          <p style="line-height: 100%; margin-bottom: 0;"><br></p>
           
         </div>
 
@@ -458,6 +457,13 @@
  
 
 <script>
+
+
+      $("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#main").offset().top
+    }, 1000);
+});
 
 
     function openSidebar() {

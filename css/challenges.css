@@ -1,3 +1,67 @@
+
+
+.background{
+  background-image: url("../img/about_img/ABOUT-02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-caption{
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  right: 10%;
+  bottom:24vh;
+  color: white;
+}
+
+/*-----------------animation-----------*/
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform:     translateY(0);
+    transform:         translateY(0)
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    transform:         translateY(-30px)
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform:     translateY(-15px);
+    transform:         translateY(-15px)
+  }
+}
+
+
+#button{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#button:hover{
+animation-name: bounce;
+  -moz-animation-name: bounce;);
+}
+
+
+
 .calendar-mobile{
   background-image: url("../img/challenge_img/Challenges-20.jpg");
   background-size: cover;
@@ -381,6 +445,14 @@ margin-bottom: 2% !important;
    .social_desktop{
     display: block;
    }
+
+     .text-caption h1{
+    font-size: 400% !important;
+   }
+
+   .text-caption p{
+    font-size: 160% !important;
+   }
  
 
 }
@@ -425,6 +497,14 @@ margin-bottom: 2% !important;
 
    .social_desktop{
     display: block;
+   }
+
+      .text-caption h1{
+    font-size: 430% !important;
+   }
+
+   .text-caption p{
+    font-size: 180% !important;
    }
  
 

@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/hackathon.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body style=" font-family: 'Quicksand', sans-serif;">
 
@@ -36,7 +37,7 @@
               <a class="nav-link" href="about-us.html">ABOUT</a>
             </li>  
              <li class="nav-item">
-              <a class="nav-link active" href="Hackathon.html">HACKATHON</a>
+              <a class="nav-link active" href="hackathon.html">HACKATHON</a>
             </li>
              <li class="nav-item">
               <a class="nav-link " href="calendar.html">CALENDER</a>
@@ -60,22 +61,19 @@
 <div class="calendar-home">
     <main role="main">
 
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="background-color: transparent !important;">
-            <img class="first-slide" src="img/hackathon_img/bg.jpg" alt="First slide" width="100">
-            <div class="container">
-              <div class="carousel-caption text-right" >
-                <h2 style="font-size: 450%; color:white ; font-family: 'Oswald', sans-serif; font-weight: 600;" class="heading">HACKATHON</h2>
-                <br/>
-                <p style=" font-size: 200%; opacity: 0.8; font-family: 'Quicksand', sans-serif;">
-                We bring community together to identify,analyze,<br>validate and solve 'Global' problem by encouraging<br>social entrepreneurship.</p>
-                <br/>
+         <div class="background">
+      <div class="text-caption">
+                <h1 style="font-size: 450%; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">HACKATHON</h1>
+                <br>
+                <p style="font-size: 210%; font-weight: 300; line-height: 35px;">We bring the community together to identify, analyze,<br> validate and solve 'Glocal' problems by encouraging <br> social entrepreneurship.</p>
+                <br>
               </div>
-            </div>
+
+          <div id="button" >
+            <img src="img/Arrow.png" width="180">
           </div>
-        </div>
-      </div>
+
+          </div>
 
  
     </main>
@@ -114,6 +112,7 @@
 
 </div>
 
+<div id="main">
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class=" container-fluid">
   <div class="row" style="width: 103%;">
@@ -135,6 +134,8 @@
 
   </div>
 </nav>
+</div>
+
 <div style="margin-bottom: 50%;"></div>
 
     <!-- Pitchfest START -->
@@ -466,7 +467,7 @@
               <a  href="about-us.html">ABOUT</a>
             </li>  
             <li class="nav-item">
-              <a  href="Hackathon.html">HACKATHON</a>
+              <a  href="hackathon.html">HACKATHON</a>
             </li>
             <li class="nav-item">
               <a  href="calendar.html">CALENDER</a>
@@ -503,6 +504,12 @@
     </div>
   <script>
 
+        $("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#main").offset().top
+    }, 1000);
+});
+
     function openSidebar() {
     document.getElementById("mySidebar").style.width = "100%";
     }
@@ -515,14 +522,6 @@
   
     </script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="https://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+   
   </body>
 </html> 

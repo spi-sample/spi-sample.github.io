@@ -8,7 +8,7 @@
     <link rel="icon" href="../../../../favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
 
     <title>Alliances</title>
 
@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/Alliances.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body style="background-color: white; font-family: 'Quicksand', sans-serif;">
 
@@ -37,7 +38,7 @@
               <a class="nav-link active" href="about-us.html">ABOUT</a>
             </li>  
              <li class="nav-item">
-              <a class="nav-link" href="Hackathon.html">HACKATHON</a>
+              <a class="nav-link" href="hackathon.html">HACKATHON</a>
             </li>
              <li class="nav-item">
               <a class="nav-link" href="calendar.html">CALENDAR</a>
@@ -60,23 +61,19 @@
 <div class="calendar-home">
      <main role="main">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="background-color: transparent !important;">
-            <img class="first-slide" src="img/alliances_img/Alliances-02.jpg" alt="First slide" width="100">
-            <div class="container">
-              <div class="carousel-caption text-right" >
-                <h2 style="font-size: 400%; color:white ; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">ALLIANCES</h2>
-                <br/>
-                <p style=" font-size: 200%; opacity: 0.9; font-family: 'Quicksand', sans-serif;">
-                 We can do it alone.But you can make it better.<br>We are looking for collabortors.To build a global<br> 
-  squad of sustainability.</p>
-                <br/>
+      <div class="background">
+      <div class="text-caption">
+                <h1 style="font-size: 450%; font-family: 'Oswald', sans-serif; font-weight: 700;" class="heading">ALLIANCES</h1>
+                <br>
+                <p style="font-size: 210%; font-weight: 300; line-height: 35px;"> We can do it alone.But you can make it better.<br> We are looking for collabortors.To build a global<br> squad of sustainability.</p>
+                <br>
               </div>
-            </div>
+
+          <div id="button" >
+            <img src="img/Arrow.png" width="180">
           </div>
-        </div>
-      </div>
+
+          </div>
 </main>
 
 
@@ -115,7 +112,7 @@
 
 
 </div>
-
+<div id="main">
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class=" container-fluid">
   <div class="row" style="width: 103%;">
@@ -137,7 +134,7 @@
 
   </div>
 </nav>
-
+</div>
  
 
 <div style="text-align: center; font-size:200%; margin-top: 5%; margin-ieft: 2%;">
@@ -171,7 +168,7 @@
               <a  href="about-us.html">ABOUT</a>
             </li>  
             <li class="nav-item">
-              <a  href="Hackathon.html">HACKATHON</a>
+              <a  href="hackathon.html">HACKATHON</a>
             </li>
             <li class="nav-item">
               <a  href="calendar.html">CALENDER</a>
@@ -210,7 +207,13 @@
 
 
 <script>
-
+ 
+       $("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#main").offset().top
+    }, 1000);
+});
+ 
 
     function openSidebar() {
     document.getElementById("mySidebar").style.width = "100%";
@@ -233,29 +236,4 @@
 
 
 
-<script>
-
-
-    function openSidebar() {
-    document.getElementById("mySidebar").style.width = "100%";
-    }
-
-    /* Set the width of the side navigation to 0 */
-    function closeSidebar() {
-        document.getElementById("mySidebar").style.width = "0";
-    }
-  
-  $(window).bind("resize", function () {
-    console.log($(this).width())
-    if ($(this).width() <= 768) {
-        $('.text-right').removeClass('text-right')
-    } else {
-        $('.text-right').addClass('text-right')
-    }
-}).trigger('resize');
-
-
-
-    </script>
-   
 
