@@ -205,7 +205,7 @@ SCREEN ADJUSTMENT-----------*/
   margin-top: 45% !important;
 }
 
-.caption h1{
+.heading{
   font-size: 300% !important;
 }
 
@@ -538,11 +538,7 @@ margin-bottom: 2% !important;
   }
 }
 
-@media (max-width: 480px){
-  .heading{
-    font-size: 300% !important;
-  }
-}
+
 
 
 

@@ -271,8 +271,8 @@ margin-bottom: 2% !important;
   margin-top: 45% !important;
 }
 
-.caption h1{
-  font-size: 300% !important;
+.heading{
+  font-size: 350% !important;
 }
 
 .caption p{
@@ -549,8 +549,4 @@ margin-bottom: 2% !important;
   }
 }
 
-@media (max-width: 480px){
-  .heading{
-    font-size: 300% !important;
-  }
-}
+
