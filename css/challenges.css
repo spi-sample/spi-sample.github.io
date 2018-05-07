@@ -115,6 +115,7 @@ animation-name: bounce;
 
 /*-------------SIDEBAR----------------*/
 
+
 .sidebar {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -131,13 +132,13 @@ animation-name: bounce;
 
 /* The navigation menu links */
 .sidebar a {
-    padding: 8px 8px 8px 0px;
+    font-family: "Quicksand" , sans-serif;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+    font-size: 18px;
+    color: black;
     transition: 0.3s;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
 }
 
 /* When you mouse over the navigation links, change their color */
