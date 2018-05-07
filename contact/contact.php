@@ -72,6 +72,7 @@
 
 <hr style="margin-top: 8%; margin-bottom: 3%;">
  <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+ <div style="text-align: center;">
   <a href="../index.html">HOME</a>
   <hr style="margin-top: 3%; margin-bottom: 3%;">
   <a href="../about-us.html">ABOUT</a>
@@ -80,7 +81,6 @@
   <hr style="margin-top: 3%; margin-bottom: 3%;">
   <a href="../calendar.html">CALENDAR</a>
  <hr style="margin-top: 3%; margin-bottom: 20%;">
-  <div style="text-align: center;">
  <h4 >Follow us on:</h4>
  <div class="social_nav" style=" margin-top: 3%;">
             <a href="https://www.facebook.com/h4sg16/" class="social"><img src="../img/FACEBOOK-01.png" width="30"></a>
