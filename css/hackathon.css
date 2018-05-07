@@ -152,11 +152,9 @@ animation-name: bounce;
   z-index: 100000;
   width: 100%;
 }
+
 .nav-link{
-
- padding-right: 40px !important; 
- font-family: 'Quicksand', sans-serif !important;
-
+ padding-right: 47px !important; 
 }
 
 .navdown{ 
