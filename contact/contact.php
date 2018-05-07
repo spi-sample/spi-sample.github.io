@@ -23,23 +23,23 @@
 
      <header class="content_to_hide">
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html"><img src="../img/Hackathon Logo_FINAL-03.png" width="120"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../img/Hackathon Logo_FINAL-03.png" width="120"></a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse" style="width: 100%;">
            <ul class="navbar-nav" style="margin-left: 45%;">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../index.html">HOME<span class="sr-only">(current)</span></a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="about-us.html">ABOUT</a>
+              <a class="nav-link" href="../about-us.html">ABOUT</a>
             </li>  
              <li class="nav-item">
-              <a class="nav-link" href="hackathon.html">HACKATHON</a>
+              <a class="nav-link" href="../hackathon.html">HACKATHON</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link " href="calendar.html">CALENDER</a>
+              <a class="nav-link " href="../calendar.html">CALENDER</a>
             </li>
           
             </ul>
@@ -64,15 +64,34 @@
         <a class="navbar-brand" href="../index.html"><img src="../img/Hackathon Logo_FINAL-03.png" width="120"></a>
 
     <div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
-  <a href="../index.html">HOME</a>
-  <a href="../about-us.html">ABOUT US</a>
-  <a href="../hackathon.html">HACKATHON</a>
-  <a href="../calendar.html">CALENDAR</a>
-
-  <div class="register-here" style="background-color: #3FA3A3; font-size: 100%; padding: 2px 0 2px 0;">
-              <a  style="padding: 10px !important; text-decoration: none; color: white;" href="#">REGISTER</a>
+      <div class="container" style="font-family: 'Quicksand' , sans-serif;">
+      <div style="width: 100%; text-align: center; margin-top: 4%;">
+      <button class="register-here btn btn-md btn-light" style="border: 3px solid #3FA3A3;  border-radius: 0; font-size: 18px;  width: 80%; color:black; font-weight: bold; "><a href="contact/contact.php">REGISTER</a></button>
+    
 </div>
+
+<hr style="margin-top: 8%; margin-bottom: 3%;">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+  <a href="../index.html">HOME</a>
+  <hr style="margin-top: 3%; margin-bottom: 3%;">
+  <a href="../about-us.html">ABOUT</a>
+  <hr style="margin-top: 3%; margin-bottom: 3%;">
+  <a href="../hackathon.html">HACKATHON</a>
+  <hr style="margin-top: 3%; margin-bottom: 3%;">
+  <a href="../calendar.html">CALENDAR</a>
+ <hr style="margin-top: 3%; margin-bottom: 20%;">
+  <div style="text-align: center;">
+ <h4 >Follow us on:</h4>
+ <div class="social_nav" style=" margin-top: 3%;">
+            <a href="https://www.facebook.com/h4sg16/" class="social"><img src="../img/FACEBOOK-01.png" width="30"></a>
+             <a href="https://www.instagram.com/hackforsocialgood/" class="social"><img src="../img/INSTAGRAM-01.png" width="30"></a>
+             <a href="https://twitter.com/hack4socialgood" class="social"><img src="../img/TWITTER-01.png" width="30"></a>
+             <a href="https://www.youtube.com/channel/UCAXmCYGrHeqFcx7p4cgx4Ug" class="social"><img src="../img/YOUTUBE-01.png" width="30"></a> 
+  </div>
+  </div>
+  
+  </div>
+
 </div>
 
 <!-- Use any element to open the sidenav -->
@@ -80,13 +99,13 @@
 </nav>
 
 
-
 </div>
+
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-push-6 image"></div>
-        <div class="col-md-6 col-md-pull-6 contact" style="padding-left: 5%;">
+        <div class="col-md-6 order-md-2 image"></div>
+        <div class="col-md-6 order-md-1 contact" style="padding-left: 5%;">
           <h1>CONTACT</h1>
           <br>
           <p>Call us on: 9876543210</p>
@@ -115,11 +134,11 @@
 
 
 <br>
- <div>
-             <a href="" class="social"><img src="../img/FACEBOOK-01.png" width="30"></a>
-             <a href="" class="social"><img src="../img/INSTAGRAM-01.png" width="30"></a>
-             <a href="" class="social"><img src="../img/TWITTER-01.png" width="30"></a>
-             <a href="" class="social"><img src="../img/YOUTUBE-01.png" width="30"></a>
+ <div style="margin-bottom: 5%;">
+             <a href="https://www.facebook.com/h4sg16/" class="social"><img src="../img/FACEBOOK-01.png" width="30"></a>
+             <a href="https://www.instagram.com/hackforsocialgood/" class="social"><img src="../img/INSTAGRAM-01.png" width="30"></a>
+             <a href="https://twitter.com/hack4socialgood" class="social"><img src="../img/TWITTER-01.png" width="30"></a>
+             <a href="https://www.youtube.com/channel/UCAXmCYGrHeqFcx7p4cgx4Ug" class="social"><img src="../img/YOUTUBE-01.png" width="30"></a> 
            </div>
 
         </div>
