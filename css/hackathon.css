@@ -1,3 +1,80 @@
+/*-------------------HACKATHON PATH-------------------------------------*/
+
+
+
+.carousel-indicators{
+  bottom: 25%;
+  left: 75%;
+  right: 0%;
+ display: table-cell;
+ text-align: center;
+ float: none;
+ }
+
+.carousel-indicators li{
+  cursor: pointer;
+  border-radius: 50%;
+display: block;
+width: 15px ;
+height: 15px ;
+margin-bottom: 15px;
+background-color: #10A399;
+}
+
+.carousel-indicators .active {
+  width: 17px;
+  height: 17px;
+  margin-bottom: 15px;
+  background-color: #10A399;
+  opacity: 0.5
+}
+
+.carousel-control-next{
+
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
+ float: none;
+ top: 80%;
+ 
+}
+
+
+
+
+.carousel.vert .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vert .carousel-item {
+  bottom: 5vh;
+}
+
+
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+
+
+/*---------------------main ----------------------*/
+
+
 
 .background{
   background-image: url("../img/hackathon_img/bg.jpg");

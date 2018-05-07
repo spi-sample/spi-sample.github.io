@@ -16,9 +16,16 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+
     <!-- Custom styles for this template -->
     <link href="css/hackathon.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   </head>
   <body style=" font-family: 'Quicksand', sans-serif;">
 
@@ -136,7 +143,56 @@
 </nav>
 </div>
 
-<div style="margin-bottom: 50%;"></div>
+<hr>
+
+<div class="hackathon-path " >
+
+   <div id="carouselExampleIndicators" class="carousel vert slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/hackathon_img/1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/hackathon_img/2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/hackathon_img/3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/hackathon_img/4.jpg" alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/hackathon_img/5.jpg" alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/hackathon_img/6.jpg" alt="Sixth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/hackathon_img/7.jpg" alt="Seventh slide">
+    </div>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span aria-hidden="true"><img src="img/Arrow.png" width="150"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+
+  
+</div>
+
+
+
+</div>
+
+<hr>
 
     <!-- Pitchfest START -->
     <div class="pitchfests_bg">
@@ -504,11 +560,15 @@
     </div>
   <script>
 
+
         $("#button").click(function() {
     $('html, body').animate({
         scrollTop: $("#main").offset().top
     }, 1000);
 });
+
+
+
 
     function openSidebar() {
     document.getElementById("mySidebar").style.width = "100%";
@@ -521,6 +581,8 @@
 
   
     </script>
+
+
 
    
   </body>
