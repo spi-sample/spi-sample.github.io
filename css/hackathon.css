@@ -3,7 +3,7 @@
 
 
 .carousel-indicators{
- bottom: 40%;
+ bottom: 30%;
   left: 75%;
   right: 0%;
  display: table-cell;
@@ -35,9 +35,10 @@ background-color: #10A399;
   text-align: center;
   vertical-align: bottom;
  float: none;
- top: 60%;
+ top: 80%;
  
 }
+
 
 
 
