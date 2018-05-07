@@ -129,7 +129,7 @@ animation-name: bounce;
 
 
 
-.mobile{
+.mobile-back{
   background-image: url("../img/hackathon_img/Hackathon-20.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -431,7 +431,10 @@ display: block;
   .mobile{
     display: block;
   }
+
+  
 }
+
 
 
 @media screen and (min-width: 992px){
